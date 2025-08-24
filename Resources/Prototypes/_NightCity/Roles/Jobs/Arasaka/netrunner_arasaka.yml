@@ -1,0 +1,24 @@
+- type: job
+  id: NetrunnerArasaka
+  name: job-name-netrunner-arasaka
+  description: job-description-netrunner-arasaka
+  playTimeTracker: JobNetrunnerArasaka
+  startingGear: NetrunnerArasakaGear
+  icon: "JobIconNetrunnerArasaka"
+  supervisors: job-supervisors-squadcommander #TODO: change supervisors
+  access:   #TODO: change access
+  - Security
+  - Brig
+  - Armory
+  - Maintenance
+  - Service
+  - External
+  - Detective
+  - Cryogenics
+
+- type: startingGear
+  id: NetrunnerArasakaGear
+  equipment:
+    id: PassengerPDA
+    ears: ClothingHeadsetGrey
+

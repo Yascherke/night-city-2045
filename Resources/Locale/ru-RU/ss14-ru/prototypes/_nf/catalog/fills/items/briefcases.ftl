@@ -1,0 +1,13 @@
+ent-SpaceCashExpedition = эдди
+    .desc = Трудом заработанные эдди. Прямо с цифрового монетного двора. Пахнут успехом и неуплаченными налогами.
+    .suffix = Деньги
+ent-SpaceCashExpeditionT1 = эдди (5000)
+    .desc = { ent-SpaceCashExpedition.desc }
+ent-SpaceCashExpeditionT2 = эдди (10000)
+    .desc = { ent-SpaceCashExpedition.desc }
+ent-SpaceCashExpeditionT3 = эдди (10000)
+    .desc = { ent-SpaceCashExpedition.desc }
+ent-SpaceCashExpeditionT4 = эдди (20000)
+    .desc = { ent-SpaceCashExpedition.desc }
+ent-SpaceCashExpeditionT5 = эдди (30000)
+    .desc = { ent-SpaceCashExpedition.desc }

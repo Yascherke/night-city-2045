@@ -10,7 +10,8 @@ namespace Content.Shared.Localizations
         [Dependency] private readonly ILocalizationManager _loc = default!;
 
         // If you want to change your codebase's language, do it here.
-        private const string Culture = "en-US";
+        private const string Culture = "ru-RU"; // Corvax-Localization
+        private const string FallbackCulture = "en-US"; 
 
         /// <summary>
         /// Custom format strings used for parsing and displaying minutes:seconds timespans.
@@ -26,8 +27,12 @@ namespace Content.Shared.Localizations
         public void Initialize()
         {
             var culture = new CultureInfo(Culture);
+            var fallbackCulture = new CultureInfo(FallbackCulture); // Corvax-Localization
 
             _loc.LoadCulture(culture);
+            _loc.LoadCulture(fallbackCulture); // Corvax-Localization
+            _loc.SetFallbackCluture(fallbackCulture); // Corvax-Localization
+            _loc.AddFunction(culture, "MANY", FormatMany); // Corvax-Localization: To prevent problems in auto-generated locale files
             _loc.AddFunction(culture, "PRESSURE", FormatPressure);
             _loc.AddFunction(culture, "POWERWATTS", FormatPowerWatts);
             _loc.AddFunction(culture, "POWERJOULES", FormatPowerJoules);
@@ -39,7 +44,6 @@ namespace Content.Shared.Localizations
             _loc.AddFunction(culture, "NATURALFIXED", FormatNaturalFixed);
             _loc.AddFunction(culture, "NATURALPERCENT", FormatNaturalPercent);
             _loc.AddFunction(culture, "PLAYTIME", FormatPlaytime);
-            _loc.AddFunction(culture, "GASQUANTITY", FormatGasQuantity); // Frontier
 
 
             /*
@@ -217,13 +221,6 @@ namespace Content.Shared.Localizations
 
             return FormatUnitsGeneric(args, "zzzz-fmt-energy-watt-hours", joules => joules * joulesToWattHours);
         }
-
-        // Frontier: gas quantity
-        private static ILocValue FormatGasQuantity(LocArgs args)
-        {
-            return FormatUnitsGeneric(args, "zzzz-fmt-gas-quantity");
-        }
-        // End Frontier
 
         private static ILocValue FormatUnits(LocArgs args)
         {

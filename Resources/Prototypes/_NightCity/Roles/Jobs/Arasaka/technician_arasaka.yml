@@ -1,0 +1,27 @@
+- type: job
+  id: TechnicianArasaka
+  name: job-name-technician-arasaka
+  description: job-description-technician-arasaka
+  playTimeTracker: JobTechnicianArasaka
+  startingGear: TechnicianArasakaGear
+  icon: "JobIconTechnicianArasaka" 
+  supervisors: job-name-hoda #TODO: change supervisors
+  access:   #TODO: change access
+  - Engineering
+  - Command
+  - Brig
+  - Security
+  - Armory
+  - Maintenance
+  - Service
+  - External
+  - Detective
+  - Cryogenics
+
+- type: startingGear
+  id: TechnicianArasakaGear
+  equipment:
+    id: PassengerPDA
+    ears: ClothingHeadsetGrey
+
+#TODO: add to role_loadout.yml

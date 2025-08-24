@@ -1,0 +1,47 @@
+#Operative Arasaka Helmet
+- type: entity
+  parent: [ClothingHeadHelmetArmoredBase, BaseArasakaContraband]
+  id: ClothingHeadHelmetOperativeArasaka
+  name: AR-1 Боевой шлем Arasaka
+  description: Элитный шлем оперативника Arasaka. Обеспечивает отличную защиту.
+  modifiers:
+    coefficients:
+      Blunt: 0.4
+      Slash: 0.4
+      Piercing: 0.4
+      Heat: 0.4
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Helmets/security.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Helmets/security.rsi
+  - type: Tag
+    tags:
+    - ArasakaHelmet
+  - type: HideLayerClothing
+    layers:
+      Hair: HEAD
+
+#Operative Squad Commander Arasaka Helmet
+- type: entity
+  parent: [ClothingHeadHelmetArmoredBase, BaseArasakaContraband]
+  id: ClothingHeadHelmetOperativeArasaka
+  name: AR-1C Боевой шлем Arasaka
+  description: Элитный шлем командира оперативников Arasaka. Обеспечивает отличную защиту.
+  modifiers:
+    coefficients:
+      Blunt: 0.4
+      Slash: 0.4
+      Piercing: 0.4
+      Heat: 0.4
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Helmets/security.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Helmets/security.rsi
+  - type: Tag
+    tags:
+    - ArasakaHelmetSC
+  - type: HideLayerClothing
+    layers:
+      Hair: HEAD

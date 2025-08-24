@@ -1,0 +1,80 @@
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconHeadOfDepartmentArasaka
+  icon:
+    sprite: /Textures/_NightCity/Interface/Misc/job_icons.rsi
+    state: HeadOfDepartmentArasaka
+  jobName: job-name-hoda
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconChiefOfSecurityArasaka
+  icon:
+    sprite: /Textures/_NightCity/Interface/Misc/job_icons.rsi
+    state: ChiefOfSecurityArasaka
+  jobName: job-name-chief-of-security-arasaka
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconHeadOfPersonnelArasaka
+  icon:
+    sprite: /Textures/_NightCity/Interface/Misc/job_icons.rsi
+    state: HeadOfPersonnelArasaka
+  jobName: job-name-hopa
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconMedicArasaka
+  icon:
+    sprite: /Textures/_NightCity/Interface/Misc/job_icons.rsi
+    state: MedicArasaka
+  jobName: job-name-medic-arasaka
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconNetrunnerArasaka
+  icon:
+    sprite: /Textures/_NightCity/Interface/Misc/job_icons.rsi
+    state: NetrunnerArasaka
+  jobName: job-name-netrunner-arasaka
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconSecurityGuardArasaka
+  icon:
+    sprite: /Textures/_NightCity/Interface/Misc/job_icons.rsi
+    state: SecurityGuardArasaka
+  jobName: job-name-security-guard-arasaka
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconOperativeArasaka
+  icon:
+    sprite: /Textures/_NightCity/Interface/Misc/job_icons.rsi
+    state: OperativeArasaka
+  jobName: job-name-operative-arasaka
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconSquadCommanderArasaka
+  icon:
+    sprite: /Textures/_NightCity/Interface/Misc/job_icons.rsi
+    state: SquadCommanderArasaka
+  jobName: job-name-squad-commander-arasaka
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconTechnicianArasaka
+  icon:
+    sprite: /Textures/_NightCity/Interface/Misc/job_icons.rsi
+    state: TechnicianArasaka
+  jobName: job-name-technician-arasaka
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconWardenArasaka
+  icon:
+    sprite: /Textures/_NightCity/Interface/Misc/job_icons.rsi
+    state: WardenArasaka
+  jobName: job-name-warden-arasaka
+

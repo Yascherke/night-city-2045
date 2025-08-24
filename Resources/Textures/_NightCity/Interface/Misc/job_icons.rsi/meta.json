@@ -1,0 +1,41 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "by dr_alpha02",
+    "size": {
+        "x": 8,
+        "y": 8
+    },
+    "states": [
+        {
+            "name": "HeadOfDepartmentArasaka"
+        },
+        {
+            "name": "ChiefOfSecurityArasaka"
+        },
+        {
+            "name": "HeadOfPersonnelArasaka"
+        },
+        {
+            "name": "MedicArasaka"
+        },
+        {
+            "name": "NetrunnerArasaka"
+        },
+        {
+            "name": "SecurityGuardArasaka"
+        },
+        {
+            "name": "OperativeArasaka"
+        },
+        {
+            "name": "SquadCommanderArasaka"
+        },
+        {
+            "name": "TechnicianArasaka"
+        },
+        {
+            "name": "WardenArasaka"
+        }
+    ]
+}

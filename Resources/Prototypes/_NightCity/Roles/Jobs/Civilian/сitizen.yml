@@ -1,0 +1,24 @@
+- type: job
+  id: Citizen
+  name: job-name-citizen
+  description: job-description-citizen
+  playTimeTracker: JobCitizen
+  startingGear: CitizenGear
+  icon: "JobIconHeadOfSecurity" #TODO: change icon
+  access:   #TODO: change access
+  - Medical
+  - Command
+  - Brig
+  - Security
+  - Armory
+  - Maintenance
+  - Service
+  - External
+  - Detective
+  - Cryogenics
+
+- type: startingGear
+  id: CitizenGear
+  equipment:
+    id: PassengerPDA
+    ears: ClothingHeadsetGrey

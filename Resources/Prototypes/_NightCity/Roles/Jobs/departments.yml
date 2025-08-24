@@ -1,0 +1,28 @@
+- type: department
+  id: Arasaka
+  name: department-Arasaka
+  description: department-Arasaka-description
+  color: "#FF003C"
+  roles:
+  - HeadOfDepartmentArasaka
+  - HeadOfPersonnelArasaka
+  - ChiefOfSecurityArasaka
+  - OperativeArasaka
+  - NetrunnerArasaka
+  - WardenArasaka
+  - SecurityGuardArasaka
+  - SquadCommanderArasaka
+  - TechnicianArasaka
+  - MedicArasaka
+
+- type: department
+  id: CivilianNC
+  name: department-CivilianNC
+  description: department-CivilianNC-description
+  color: "#00FF3C"
+  roles:
+  - Citizen
+  - Reaper
+  - Fixer
+  - EdgeRunnerSolo
+  - EdgeRunnerNetRunner

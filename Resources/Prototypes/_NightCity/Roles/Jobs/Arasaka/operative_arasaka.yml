@@ -1,0 +1,25 @@
+- type: job
+  id: OperativeArasaka
+  name: job-name-operative-arasaka
+  description: job-description-operative-arasaka
+  playTimeTracker: JobOperativeArasaka
+  startingGear: OperativeArasakaGear
+  icon: "JobIconOperativeArasaka"
+  supervisors: job-supervisors-squadcommander #TODO: change supervisors
+  access:   #TODO: change access
+  - Security
+  - Brig
+  - Armory
+  - Maintenance
+  - Service
+  - External
+  - Detective
+  - Cryogenics
+
+- type: startingGear
+  id: OperativeArasakaGear
+  equipment:
+    id: PassengerPDA
+    ears: ClothingHeadsetGrey
+
+#TODO: add to

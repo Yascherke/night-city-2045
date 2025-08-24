@@ -1,0 +1,27 @@
+- type: job
+  id: HeadOfPersonnelArasaka
+  name: job-name-hopa
+  description: job-description-hopa
+  playTimeTracker: JobHeadOfPersonnelArasaka
+  startingGear: HeadOfPersonnelArasakaGear
+  icon: "JobIconHeadOfPersonnelArasaka"
+  supervisors: job-supervisors-captain #TODO: change supervisors
+  access:   #TODO: change access
+  - HeadOfPersonnel
+  - Command
+  - Brig
+  - Security
+  - Armory
+  - Maintenance
+  - Service
+  - External
+  - Detective
+  - Cryogenics
+
+- type: startingGear
+  id: HeadOfPersonnelArasakaGear
+  equipment:
+    id: PassengerPDA
+    ears: ClothingHeadsetGrey
+
+#TODO:

@@ -1,0 +1,51 @@
+
+# Jobs Arasaka
+- type: playTimeTracker
+  id: JobHeadOfDepartmentArasaka
+
+- type: playTimeTracker
+  id: JobSquadCommanderArasaka
+
+- type: playTimeTracker
+  id: JobOperativeArasaka
+
+- type: playTimeTracker
+  id: JobNetrunnerArasaka
+
+- type: playTimeTracker
+  id: JobChiefOfSecurityArasaka
+
+- type: playTimeTracker
+  id: JobSecurityGuardArasaka
+
+- type: playTimeTracker
+  id: JobWardenArasaka
+
+- type: playTimeTracker
+  id: JobHeadOfPersonnelArasaka
+
+- type: playTimeTracker
+  id: JobMedicArasaka
+
+- type: playTimeTracker
+  id: JobSupplyArasaka
+
+- type: playTimeTracker
+  id: JobTechnicianArasaka
+
+# Jobs Civilian
+- type: playTimeTracker
+  id: JobCitizen
+
+- type: playTimeTracker
+  id: JobReaper
+
+- type: playTimeTracker
+  id: JobFixer
+
+- type: playTimeTracker
+  id: JobEdgeRunnerSolo
+
+- type: playTimeTracker
+  id: JobEdgeRunnerNetRunner
+
