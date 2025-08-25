@@ -35,3 +35,9 @@ id-card-access-level-borg = Cyborg
 id-card-access-level-basic-silicon = Robot
 id-card-access-level-syndicate-agent = Агент Синдиката
 id-card-access-level-central-command = Центральное командование
+
+
+id-card-access-level-arasaka = Арасака
+id-card-access-level-armory-arasaka = Оружейная Арасака
+id-card-access-level-security-arasaka = Охрана Арасака
+id-card-access-level-head-of-department-arasaka = Руководитель департамента Арасака

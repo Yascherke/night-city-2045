@@ -7,16 +7,7 @@
   icon: "JobIconMedicArasaka"
   supervisors: job-name-hoda #TODO: change supervisors
   access:   #TODO: change access
-  - Medical
-  - Command
-  - Brig
-  - Security
-  - Armory
-  - Maintenance
-  - Service
-  - External
-  - Detective
-  - Cryogenics
+  - Arasaka
 
 - type: startingGear
   id: MedicArasakaGear

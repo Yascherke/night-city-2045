@@ -3,250 +3,80 @@
 - type: roleLoadout 
   id: JobHeadOfDepartmentArasaka
   groups:
-  - GroupTankHarness
   - PassengerJumpsuit
-  - CommonBackpack
-  - PassengerNeck
-  - PassengerFace
-  - PassengerGloves
-  - PassengerOuterClothing
-  - PassengerShoes
-  - Glasses
-  - Survival
-  - Trinkets
-  - GroupSpeciesBreathTool
 
 - type: roleLoadout
   id: JobSquadCommanderArasaka
   groups:
-  - GroupTankHarness
   - PassengerJumpsuit
-  - CommonBackpack
-  - PassengerNeck
-  - PassengerFace
-  - PassengerGloves
-  - PassengerOuterClothing
-  - PassengerShoes
-  - Glasses
-  - Survival
-  - Trinkets
-  - GroupSpeciesBreathTool
 
 - type: roleLoadout
   id: JobOperativeArasaka
   groups:
-  - GroupTankHarness
   - PassengerJumpsuit
-  - CommonBackpack
-  - PassengerNeck
-  - PassengerFace
-  - PassengerGloves
-  - PassengerOuterClothing
-  - PassengerShoes
-  - Glasses
-  - Survival
-  - Trinkets
-  - GroupSpeciesBreathTool
 
 - type: roleLoadout
   id: JobNetrunnerArasaka
   groups:
-  - GroupTankHarness
   - PassengerJumpsuit
-  - CommonBackpack
-  - PassengerNeck
-  - PassengerFace
-  - PassengerGloves
-  - PassengerOuterClothing
-  - PassengerShoes
-  - Glasses
-  - Survival
-  - Trinkets
-  - GroupSpeciesBreathTool
 
 - type: roleLoadout
   id: JobChiefOfSecurityArasaka
   groups:
-  - GroupTankHarness
   - PassengerJumpsuit
-  - CommonBackpack
-  - PassengerNeck
-  - PassengerFace
-  - PassengerGloves
-  - PassengerOuterClothing
-  - PassengerShoes
-  - Glasses
-  - Survival
-  - Trinkets
-  - GroupSpeciesBreathTool
 
 - type: roleLoadout
   id: JobSecurityGuardArasaka
   groups:
-  - GroupTankHarness
   - PassengerJumpsuit
-  - CommonBackpack
-  - PassengerNeck
-  - PassengerFace
-  - PassengerGloves
-  - PassengerOuterClothing
-  - PassengerShoes
-  - Glasses
-  - Survival
-  - Trinkets
-  - GroupSpeciesBreathTool
 
 - type: roleLoadout
   id: JobWardenArasaka
   groups:
-  - GroupTankHarness
   - PassengerJumpsuit
   - CommonBackpack
-  - PassengerNeck
-  - PassengerFace
-  - PassengerGloves
-  - PassengerOuterClothing
-  - PassengerShoes
-  - Glasses
-  - Survival
-  - Trinkets
-  - GroupSpeciesBreathTool
 
 - type: roleLoadout
   id: JobHeadOfPersonnelArasaka
   groups:
-  - GroupTankHarness
   - PassengerJumpsuit
-  - CommonBackpack
-  - PassengerNeck
-  - PassengerFace
-  - PassengerGloves
-  - PassengerOuterClothing
-  - PassengerShoes
-  - Glasses
-  - Survival
-  - Trinkets
-  - GroupSpeciesBreathTool
 
 - type: roleLoadout
   id: JobMedicArasaka
   groups:
-  - GroupTankHarness
   - PassengerJumpsuit
-  - CommonBackpack
-  - PassengerNeck
-  - PassengerFace
-  - PassengerGloves
-  - PassengerOuterClothing
-  - PassengerShoes
-  - Glasses
-  - Survival
-  - Trinkets
-  - GroupSpeciesBreathTool
-
-- type: roleLoadout
-  id: JobTechnicianArasaka
-  groups:
-  - GroupTankHarness
-  - PassengerJumpsuit
-  - CommonBackpack
-  - PassengerNeck
-  - PassengerFace
-  - PassengerGloves
-  - PassengerOuterClothing
-  - PassengerShoes
-  - Glasses
-  - Survival
-  - Trinkets
-  - GroupSpeciesBreathTool
 
 # Civilian
 - type: roleLoadout
   id: JobCitizen
   groups:
   - PassengerJumpsuit
-  - CommonBackpack
-  - PassengerNeck
-  - PassengerFace
-  - PassengerGloves
-  - PassengerOuterClothing
-  - PassengerShoes
-  - Glasses
-  - Survival
-  - Trinkets
-  - GroupSpeciesBreathTool
+
 
 - type: roleLoadout
   id: JobReaperCivilian
   groups:
   - PassengerJumpsuit
-  - CommonBackpack
-  - PassengerNeck
-  - PassengerFace
-  - PassengerGloves
-  - PassengerOuterClothing
-  - PassengerShoes
-  - Glasses
-  - Survival
-  - Trinkets
-  - GroupSpeciesBreathTool
+
 
 - type: roleLoadout
   id: JobTechnicianCivilian
   groups:
   - PassengerJumpsuit
-  - CommonBackpack
-  - PassengerNeck
-  - PassengerFace
-  - PassengerGloves
-  - PassengerOuterClothing
-  - PassengerShoes
-  - Glasses
-  - Survival
-  - Trinkets
-  - GroupSpeciesBreathTool
+
 
 - type: roleLoadout
   id: JobFixer
   groups:
   - PassengerJumpsuit
-  - CommonBackpack
-  - PassengerNeck
-  - PassengerFace
-  - PassengerGloves
-  - PassengerOuterClothing
-  - PassengerShoes
-  - Glasses
-  - Survival
-  - Trinkets
-  - GroupSpeciesBreathTool
+
 
 - type: roleLoadout
   id: JobEdgeRunnerSolo
   groups:
   - PassengerJumpsuit
-  - CommonBackpack
-  - PassengerNeck
-  - PassengerFace
-  - PassengerGloves
-  - PassengerOuterClothing
-  - PassengerShoes
-  - Glasses
-  - Survival
-  - Trinkets
-  - GroupSpeciesBreathTool
 
   - type: roleLoadout
   id: JobEdgeRunnerNetRunner
   groups:
   - PassengerJumpsuit
-  - CommonBackpack
-  - PassengerNeck
-  - PassengerFace
-  - PassengerGloves
-  - PassengerOuterClothing
-  - PassengerShoes
-  - Glasses
-  - Survival
-  - Trinkets
-  - GroupSpeciesBreathTool

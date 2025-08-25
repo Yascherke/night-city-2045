@@ -7,16 +7,10 @@
   icon: "JobIconHeadOfDepartmentArasaka" 
   supervisors: job-supervisors-captain #TODO: change supervisors
   access:   #TODO: change access
-  - HeadOfSecurity
-  - Command
-  - Brig
-  - Security
-  - Armory
-  - Maintenance
-  - Service
-  - External
-  - Detective
-  - Cryogenics
+  - Arasaka
+  - SecurityArasaka 
+  - ArmoryArasaka
+  - HeadOfDepartmentArasaka
 
   #TODO: change gear
 - type: startingGear

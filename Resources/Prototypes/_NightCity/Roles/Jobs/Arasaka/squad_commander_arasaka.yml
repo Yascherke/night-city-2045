@@ -7,14 +7,10 @@
   icon: "JobIconSquadCommanderArasaka"
   supervisors: job-supervisors-hoda #TODO: change supervisors
   access:   #TODO: change access
-  - Security
-  - Brig
-  - Armory
-  - Maintenance
-  - Service
-  - External
-  - Detective
-  - Cryogenics
+  - Arasaka
+  - SecurityArasaka 
+  - ArmoryArasaka
+  - HeadOfDepartmentArasaka
 
 - type: startingGear
   id: SquadCommanderArasakaGear

@@ -5,21 +5,15 @@
   playTimeTracker: JobOperativeArasaka
   startingGear: OperativeArasakaGear
   icon: "JobIconOperativeArasaka"
-  supervisors: job-supervisors-squadcommander #TODO: change supervisors
-  access:   #TODO: change access
-  - Security
-  - Brig
-  - Armory
-  - Maintenance
-  - Service
-  - External
-  - Detective
-  - Cryogenics
+  supervisors: job-supervisors-squadcommander 
 
 - type: startingGear
   id: OperativeArasakaGear
   equipment:
     id: PassengerPDA
     ears: ClothingHeadsetGrey
-
-#TODO: add to
+    head: ClothingHeadHelmetOperativeArasaka
+    outerClothing: ClothingOuterArmorArasaka
+    suitStorage: ClothingUniformJumpsuitHoSAlt
+    shoes: ClothingShoesBootsCombat
+    belt: ClothingBeltSecurity

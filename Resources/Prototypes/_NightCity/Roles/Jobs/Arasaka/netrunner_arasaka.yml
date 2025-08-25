@@ -7,14 +7,9 @@
   icon: "JobIconNetrunnerArasaka"
   supervisors: job-supervisors-squadcommander #TODO: change supervisors
   access:   #TODO: change access
-  - Security
-  - Brig
-  - Armory
-  - Maintenance
-  - Service
-  - External
-  - Detective
-  - Cryogenics
+  - Arasaka
+  - SecurityArasaka 
+  - ArmoryArasaka
 
 - type: startingGear
   id: NetrunnerArasakaGear

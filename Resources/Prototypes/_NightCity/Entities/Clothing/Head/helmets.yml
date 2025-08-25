@@ -1,47 +1,21 @@
 #Operative Arasaka Helmet
 - type: entity
-  parent: [ClothingHeadHelmetArmoredBase, BaseArasakaContraband]
-  id: ClothingHeadHelmetOperativeArasaka
+  parent: [ClothingHeadHelmetBase, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband, added ContrabandClothing as parent
+  id: ClothingHeadHelmetArasaka
   name: AR-1 Боевой шлем Arasaka
-  description: Элитный шлем оперативника Arasaka. Обеспечивает отличную защиту.
-  modifiers:
-    coefficients:
-      Blunt: 0.4
-      Slash: 0.4
-      Piercing: 0.4
-      Heat: 0.4
+  description: Бронированный шлем оперативника Arasaka, обеспечивающий высокую защиту головы от различных видов урона
   components:
   - type: Sprite
-    sprite: Clothing/Head/Helmets/security.rsi
+    sprite: Clothing/Head/Helmets/syndie-raid.rsi
   - type: Clothing
-    sprite: Clothing/Head/Helmets/security.rsi
-  - type: Tag
-    tags:
-    - ArasakaHelmet
-  - type: HideLayerClothing
-    layers:
-      Hair: HEAD
-
-#Operative Squad Commander Arasaka Helmet
-- type: entity
-  parent: [ClothingHeadHelmetArmoredBase, BaseArasakaContraband]
-  id: ClothingHeadHelmetOperativeArasaka
-  name: AR-1C Боевой шлем Arasaka
-  description: Элитный шлем командира оперативников Arasaka. Обеспечивает отличную защиту.
-  modifiers:
-    coefficients:
-      Blunt: 0.4
-      Slash: 0.4
-      Piercing: 0.4
-      Heat: 0.4
-  components:
-  - type: Sprite
-    sprite: Clothing/Head/Helmets/security.rsi
-  - type: Clothing
-    sprite: Clothing/Head/Helmets/security.rsi
-  - type: Tag
-    tags:
-    - ArasakaHelmetSC
+    sprite: Clothing/Head/Helmets/syndie-raid.rsi
+  - type: Armor
+    modifiers: #There's gotta be SOME reason to use this over other helmets.
+      coefficients:
+        Blunt: 0.85
+        Slash: 0.85
+        Piercing: 0.85
+        Heat: 0.85
   - type: HideLayerClothing
     layers:
       Hair: HEAD

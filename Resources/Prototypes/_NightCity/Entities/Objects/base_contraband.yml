@@ -1,8 +1,8 @@
-# Contraband only for Arasaka
-- type: entity
-  id: BaseArasakaContraband
-  parent: BaseC2ContrabandUnredeemable 
-  abstract: true
-  components:
-  - type: Contraband
-    allowedDepartments: [ Arasaka ]
+# # Contraband only for Arasaka
+# - type: entity
+#   id: BaseNCContraband
+#   parent: BaseC2ContrabandUnredeemable 
+#   abstract: true
+#   components:
+#   - type: Contraband
+#     allowedDepartments: [  ]

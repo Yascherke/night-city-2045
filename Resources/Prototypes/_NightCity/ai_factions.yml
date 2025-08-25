@@ -1,0 +1,19 @@
+- type: npcFaction
+  id: Arasaka
+  hostile:
+  - NCCivilians
+
+- type: npcFaction
+  id: NCCivilians
+  hostile:
+  - Arasaka
+
+- type: npcFaction
+  id: NCPD
+  hostile:
+  - Arasaka
+#  - Maelstrom
+#  - TygerClaws
+#  - VoodooBoys
+#  - 6thStreet
+#  - Scavengers

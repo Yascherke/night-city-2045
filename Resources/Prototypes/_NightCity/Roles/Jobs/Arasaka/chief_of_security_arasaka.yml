@@ -6,17 +6,11 @@
   startingGear: ChiefOfSecurityArasakaGear
   icon: "JobIconChiefOfSecurityArasaka" 
   supervisors: job-supervisors-hoda #TODO: change supervisors
-  access:   #TODO: change access
-  - HeadOfSecurity
-  - Command
-  - Brig
-  - Security
-  - Armory
-  - Maintenance
-  - Service
-  - External
-  - Detective
-  - Cryogenics
+  access: 
+  - Arasaka
+  - SecurityArasaka 
+  - ArmoryArasaka
+  - HeadOfDepartmentArasaka
 
 - type: startingGear
   id: ChiefOfSecurityArasakaGear

@@ -1,20 +1,20 @@
 - type: accessLevel
   id: HeadOfDepartmentArasaka
-#  name: id-card-access-level-head-of-department-arasaka
-  name: id-card-access-level-head-of-security
+  name: id-card-access-level-head-of-department-arasaka
+
 
 - type: accessLevel
   id: SecurityArasaka
-  name: id-card-access-level-security
+  name: id-card-access-level-security-arasaka
 
 - type: accessLevel
   id: ArmoryArasaka
-  name: id-card-access-level-armory
+  name: id-card-access-level-armory-arasaka
 
 - type: accessLevel
   id: Arasaka
-#  name: id-card-access-level-arasaka-tower
-  name: id-card-access-level-brig
+  name: id-card-access-level-arasaka
+
 
 - type: accessGroup
   id: Arasaka
@@ -23,4 +23,3 @@
   - SecurityArasaka
   - ArmoryArasaka
   - Arasaka
-

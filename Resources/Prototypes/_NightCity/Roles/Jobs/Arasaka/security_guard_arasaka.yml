@@ -7,15 +7,10 @@
   icon: "JobIconSecurityGuardArasaka" 
   supervisors: job-name-chief-security-arasaka #TODO: change supervisors
   access:   #TODO: change access
-  - Security
-  - Brig
-  - Armory
-  - Maintenance
-  - Service
-  - External
-  - Detective
-  - Cryogenics
-
+  - Arasaka
+  - SecurityArasaka 
+  - ArmoryArasaka
+  
 - type: startingGear
   id: SecurityGuardArasakaGear
   equipment:

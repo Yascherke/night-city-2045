@@ -7,16 +7,7 @@
   icon: "JobIconTechnicianArasaka" 
   supervisors: job-name-hoda #TODO: change supervisors
   access:   #TODO: change access
-  - Engineering
-  - Command
-  - Brig
-  - Security
-  - Armory
-  - Maintenance
-  - Service
-  - External
-  - Detective
-  - Cryogenics
+  - Arasaka
 
 - type: startingGear
   id: TechnicianArasakaGear
