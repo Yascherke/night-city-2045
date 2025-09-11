@@ -4,7 +4,7 @@
   description: job-description-hodm
   playTimeTracker: JobHoDM
   startingGear: HoDMGear
-  icon: "JobIconHeadOfSecurity" #TODO: change icon
+  icon: "JobIconPassenger" #TODO: change icon
   access:   #TODO: change access
   - Maintenance
   - Service

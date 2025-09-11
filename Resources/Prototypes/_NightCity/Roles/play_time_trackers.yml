@@ -29,3 +29,44 @@
 
 - type: playTimeTracker
   id: JobEdgeRunnerSolo
+
+# Jobs Biotech
+- type: playTimeTracker
+  id: JobHoSB
+
+- type: playTimeTracker
+  id: JobHoDB
+
+- type: playTimeTracker
+  id: JobSCB
+
+- type: playTimeTracker
+  id: JobSecB
+
+- type: playTimeTracker
+  id: JobMedTechB
+
+- type: playTimeTracker
+  id: JobOperativeB
+
+- type: playTimeTracker
+  id: JobBotanistB
+
+# Jobs NCPD
+- type: playTimeTracker
+  id: JobNCPDOfficer
+
+- type: playTimeTracker
+  id: JobNCPDSWAT
+
+- type: playTimeTracker
+  id: JobNCPDProsecutor
+
+- type: playTimeTracker
+  id: JobNCPDChief
+
+# Jobs Government
+- type: playTimeTracker
+  id: JobMayor
+
+

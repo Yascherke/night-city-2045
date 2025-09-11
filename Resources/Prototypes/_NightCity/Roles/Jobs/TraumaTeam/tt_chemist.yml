@@ -1,0 +1,18 @@
+- type: job
+  id: TraumaTeamChemist
+  name: Химик TraumaTeam
+  description: job-description-traumateam-chemist
+  playTimeTracker: JobTraumaTeamChemist
+  startingGear: TraumaTeamChemistGear
+  icon: "JobIconChemist" #TODO: заменить иконку
+  access:
+    - Maintenance
+    - Service
+    - Cryogenics
+
+- type: startingGear
+  id: TraumaTeamChemistGear
+  equipment:
+    id: PassengerPDA
+    ears: ClothingHeadsetGrey
+    jumpsuit: ClothingUniformJumpsuitMedicalColorWhite

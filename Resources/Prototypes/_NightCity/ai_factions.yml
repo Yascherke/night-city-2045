@@ -12,8 +12,37 @@
   id: NCPD
   hostile:
   - Arasaka
-#  - Maelstrom
-#  - TygerClaws
-#  - VoodooBoys
-#  - 6thStreet
-#  - Scavengers
+  - Maelstrom
+  - Scavengers
+
+- type: npcFaction
+  id: Citizens
+  hostile:
+  - Scavengers
+
+- type: npcFaction
+  id: Militech
+  hostile:
+  - Arasaka
+  - Maelstrom
+  - Scavengers
+
+- type: npcFaction
+  id: Biotech
+  hostile:
+  - Scavengers
+
+- type: npcFaction
+  id: Scavengers
+  hostile:
+  - Citizens
+  - Militech
+  - Biotech
+  - NCPD
+
+- type: npcFaction
+  id: Maelstrom
+  hostile:
+  - NCPD
+  - Militech
+  - Arasaka

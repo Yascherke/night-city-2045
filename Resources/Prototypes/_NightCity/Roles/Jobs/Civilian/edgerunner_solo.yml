@@ -4,7 +4,7 @@
   description: job-description-edgerunner-solo
   playTimeTracker: JobEdgeRunnerSolo
   startingGear: EdgeRunnerSoloGear
-  icon: "JobIconHeadOfSecurity" #TODO: change icon
+  icon: "JobIconPassenger"
   access:   #TODO: change access
   - Maintenance
   - Service

@@ -1,0 +1,18 @@
+- type: job
+  id: NCPDProsecutor
+  name: Прокурор NCPD
+  description: job-description-ncpd-prosecutor
+  playTimeTracker: JobNCPDProsecutor
+  startingGear: NCPDProsecutorGear
+  icon: "JobIconLawyer" #TODO: заменить иконку
+  access:
+    - Maintenance
+    - Service
+    - Cryogenics
+
+- type: startingGear
+  id: NCPDProsecutorGear
+  equipment:
+    id: PassengerPDA
+    ears: ClothingHeadsetGrey
+    jumpsuit: ClothingUniformJumpsuitLawyer

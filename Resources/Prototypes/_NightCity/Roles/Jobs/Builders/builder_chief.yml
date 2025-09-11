@@ -1,0 +1,18 @@
+- type: job
+  id: BuilderChief
+  name: Руководитель строительной компании
+  description: job-description-builder-chief
+  playTimeTracker: JobBuilderChief
+  startingGear: BuilderChiefGear
+  icon: "JobIconPassenger" #TODO: заменить иконку
+  access:
+    - Maintenance
+    - Service
+    - Cryogenics
+
+- type: startingGear
+  id: BuilderChiefGear
+  equipment:
+    id: PassengerPDA
+    ears: ClothingHeadsetGrey
+    jumpsuit: ClothingUniformJumpsuitEngineering
