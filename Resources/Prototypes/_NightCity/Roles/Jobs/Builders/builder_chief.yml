@@ -4,7 +4,7 @@
   description: job-description-builder-chief
   playTimeTracker: JobBuilderChief
   startingGear: BuilderChiefGear
-  icon: "JobIconPassenger" #TODO: заменить иконку
+  icon: "JobIconPassenger"
   access:
     - Maintenance
     - Service
@@ -15,4 +15,4 @@
   equipment:
     id: PassengerPDA
     ears: ClothingHeadsetGrey
-    jumpsuit: ClothingUniformJumpsuitEngineering
+    jumpsuit: ClothingUniformJumpsuitChiefEngineer

@@ -1,0 +1,246 @@
+# CivilianNC
+- type: entity
+  parent: IDCardStandard
+  id: CitizenIDCard
+  name: ID-карта жителя Night City
+  components:
+    - type: Sprite
+      layers:
+        - state: default
+        - state: idpassenger
+    - type: PresetIdCard
+      job: Citizen
+    - type: Access
+      groups:
+        - CivilianNC
+
+- type: entity
+  parent: IDCardStandard
+  id: EdgeRunnerSoloIDCard
+  name: ID-карта EdgeRunner Solo
+  components:
+    - type: Sprite
+      layers:
+        - state: default
+        - state: idpassenger
+    - type: PresetIdCard
+      job: EdgeRunnerSolo
+    - type: Access
+      groups:
+        - CivilianNC
+
+# Militech
+- type: entity
+  parent: IDCardStandard
+  id: HoSMilitechIDCard
+  name: ID-карта главы службы безопасности Militech
+  components:
+    - type: Sprite
+      layers:
+        - state: default
+        - state: idsecurityofficer
+    - type: PresetIdCard
+      job: HoSMilitech
+    - type: Access
+      groups:
+        - Militech
+
+- type: entity
+  parent: IDCardStandard
+  id: OperativeMilitechIDCard
+  name: ID-карта оперативника Militech
+  components:
+    - type: Sprite
+      layers:
+        - state: default
+        - state: idsecurityofficer
+    - type: PresetIdCard
+      job: OperativeMilitech
+    - type: Access
+      groups:
+        - Militech
+
+# Biotech
+- type: entity
+  parent: IDCardStandard
+  id: HoSBiotechIDCard
+  name: ID-карта главы службы безопасности Biotech
+  components:
+    - type: Sprite
+      layers:
+        - state: default
+        - state: idmedicaldoctor
+    - type: PresetIdCard
+      job: HoSBiotech
+    - type: Access
+      groups:
+        - Biotech
+
+- type: entity
+  parent: IDCardStandard
+  id: BotanistBiotechIDCard
+  name: ID-карта ботаника Biotech
+  components:
+    - type: Sprite
+      layers:
+        - state: default
+        - state: idmedicaldoctor
+    - type: PresetIdCard
+      job: BotanistBiotech
+    - type: Access
+      groups:
+        - Biotech
+
+# NCPD
+- type: entity
+  parent: IDCardStandard
+  id: NCPDChiefIDCard
+  name: ID-карта начальника полиции NCPD
+  components:
+    - type: Sprite
+      layers:
+        - state: default
+        - state: idsecurityofficer
+    - type: PresetIdCard
+      job: NCPDChief
+    - type: Access
+      groups:
+        - NCPD
+
+- type: entity
+  parent: IDCardStandard
+  id: NCPDProsecutorIDCard
+  name: ID-карта прокурора NCPD
+  components:
+    - type: Sprite
+      layers:
+        - state: default
+        - state: idlawyer
+    - type: PresetIdCard
+      job: NCPDProsecutor
+    - type: Access
+      groups:
+        - NCPD
+
+# Government
+- type: entity
+  parent: IDCardStandard
+  id: MayorIDCard
+  name: ID-карта мэра
+  components:
+    - type: Sprite
+      layers:
+        - state: silver
+        - state: idheadofpersonnel
+    - type: PresetIdCard
+      job: Mayor
+    - type: Access
+      groups:
+        - Government
+
+# Builders
+- type: entity
+  parent: IDCardStandard
+  id: BuilderIDCard
+  name: ID-карта строителя
+  components:
+    - type: Sprite
+      layers:
+        - state: default
+        - state: idstationengineer
+    - type: PresetIdCard
+      job: Builder
+    - type: Access
+      groups:
+        - Builders
+
+- type: entity
+  parent: IDCardStandard
+  id: BuilderChiefIDCard
+  name: ID-карта руководителя строителей
+  components:
+    - type: Sprite
+      layers:
+        - state: default
+        - state: idchiefengineer
+    - type: PresetIdCard
+      job: BuilderChief
+    - type: Access
+      groups:
+        - Builders
+
+# TraumaTeam
+- type: entity
+  parent: IDCardStandard
+  id: TraumaTeamChiefIDCard
+  name: ID-карта руководителя TraumaTeam
+  components:
+    - type: Sprite
+      layers:
+        - state: default
+        - state: idchiefmedicalofficer
+    - type: PresetIdCard
+      job: TraumaTeamChief
+    - type: Access
+      groups:
+        - TraumaTeam
+
+- type: entity
+  parent: IDCardStandard
+  id: TraumaTeamDoctorIDCard
+  name: ID-карта врача TraumaTeam
+  components:
+    - type: Sprite
+      layers:
+        - state: default
+        - state: idmedicaldoctor
+    - type: PresetIdCard
+      job: TraumaTeamDoctor
+    - type: Access
+      groups:
+        - TraumaTeam
+
+- type: entity
+  parent: IDCardStandard
+  id: TraumaTeamChemistIDCard
+  name: ID-карта химика TraumaTeam
+  components:
+    - type: Sprite
+      layers:
+        - state: default
+        - state: idchemist
+    - type: PresetIdCard
+      job: TraumaTeamChemist
+    - type: Access
+      groups:
+        - TraumaTeam
+
+- type: entity
+  parent: IDCardStandard
+  id: TraumaTeamParamedicIDCard
+  name: ID-карта парамедика TraumaTeam
+  components:
+    - type: Sprite
+      layers:
+        - state: default
+        - state: idparamedic
+    - type: PresetIdCard
+      job: TraumaTeamParamedic
+    - type: Access
+      groups:
+        - TraumaTeam
+
+- type: entity
+  parent: IDCardStandard
+  id: TraumaTeamOperativeIDCard
+  name: ID-карта оперативника TraumaTeam
+  components:
+    - type: Sprite
+      layers:
+        - state: default
+        - state: idsecurityofficer
+    - type: PresetIdCard
+      job: TraumaTeamOperative
+    - type: Access
+      groups:
+        - TraumaTeam

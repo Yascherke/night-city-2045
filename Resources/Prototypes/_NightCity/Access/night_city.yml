@@ -1,0 +1,149 @@
+#region CivilianNC (Гражданские)
+- type: accessLevel
+  id: Civilian
+  name: Житель
+  # Базовый доступ гражданских
+
+- type: accessGroup
+  id: CivilianNC
+  tags:
+    - Civilian
+  # Группа доступа для гражданских
+
+#region Militech
+- type: accessLevel
+  id: HeadOfDepartmentMilitech
+  name: Руководитель отдела Militech
+  # Для руководителя отдела Militech
+
+- type: accessLevel
+  id: SecurityMilitech
+  name: Служба безопасности Militech
+  # Для службы безопасности Militech
+
+- type: accessLevel
+  id: ArmoryMilitech
+  name: Оружейная Militech
+  # Доступ в оружейную Militech
+
+- type: accessLevel
+  id: MedMilitech
+  name: Медицинский доступ Militech
+  # Медицинский доступ Militech
+
+- type: accessLevel
+  id: Militech
+  name: Общий доступ Militech
+  # Базовый доступ Militech
+
+- type: accessGroup
+  id: Militech
+  tags:
+    - HeadOfDepartmentMilitech
+    - SecurityMilitech
+    - ArmoryMilitech
+    - MedMilitech
+    - Militech
+  # Группа всех уровней доступа Militech
+
+#region Biotech
+- type: accessLevel
+  id: HeadOfDepartmentBiotech
+  name: Руководитель отдела Biotech
+  # Для руководителя отдела Biotech
+
+- type: accessLevel
+  id: SecurityBiotech
+  name: Служба безопасности Biotech
+  # Для службы безопасности Biotech
+
+- type: accessLevel
+  id: ArmoryBiotech
+  name: Оружейная Biotech
+  # Доступ в оружейную Biotech
+
+- type: accessLevel
+  id: MedBiotech
+  name: Медицинский доступ Biotech
+  # Медицинский доступ Biotech
+
+- type: accessLevel
+  id: Biotech
+  name: Общий доступ Biotech
+  # Базовый доступ Biotech
+
+- type: accessGroup
+  id: Biotech
+  tags:
+    - HeadOfDepartmentBiotech
+    - SecurityBiotech
+    - ArmoryBiotech
+    - MedBiotech
+    - Biotech
+  # Группа всех уровней доступа Biotech
+
+#region NCPD
+- type: accessLevel
+  id: ChiefNCPD
+  name: Начальник полиции NCPD
+  # Начальник полиции
+
+- type: accessLevel
+  id: SecurityNCPD
+  name: Офицер/Спецназ NCPD
+  # Офицеры и спецназ
+
+- type: accessLevel
+  id: ArmoryNCPD
+  name: Оружейная NCPD
+  # Оружейная NCPD
+
+- type: accessLevel
+  id: ProsecutorNCPD
+  name: Прокурор NCPD
+  # Прокурор
+
+- type: accessLevel
+  id: NCPD
+  name: Общий доступ NCPD
+  # Базовый доступ NCPD
+
+- type: accessGroup
+  id: NCPD
+  tags:
+    - ChiefNCPD
+    - SecurityNCPD
+    - ArmoryNCPD
+    - ProsecutorNCPD
+    - NCPD
+  # Группа всех уровней доступа NCPD
+
+#region Government
+- type: accessLevel
+  id: Mayor
+  name: Мэр
+  # Мэр
+
+- type: accessGroup
+  id: Government
+  tags:
+    - Mayor
+  # Группа доступа для правительства
+
+#region Builders
+- type: accessLevel
+  id: ChiefBuilder
+  name: Руководитель строителей
+  # Руководитель строительной компании
+
+- type: accessLevel
+  id: Builder
+  name: Строитель
+  # Строитель
+
+- type: accessGroup
+  id: Builders
+  tags:
+    - ChiefBuilder
+    - Builder
+  # Группа доступа для строителей

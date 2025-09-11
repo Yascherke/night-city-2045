@@ -4,7 +4,7 @@
   description: job-description-builder
   playTimeTracker: JobBuilder
   startingGear: BuilderGear
-  icon: "JobIconPassenger" #TODO: заменить иконку
+  icon: "JobIconPassenger"
   access:
     - Maintenance
     - Service
