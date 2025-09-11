@@ -892,3 +892,96 @@
   - type: Construction
     graph: NFGoblinMadeVehicleDumpster
     node: NFGoblinMadeVehicleDumpster
+
+
+- type: entity
+  parent: VehicleATV
+  id: NCCarTest
+  components:
+  - type: Sprite
+    sprite: _NF/Objects/Vehicles/car.rsi
+    scale: "0.75, 0.75"
+    layers:
+    - state: vehicle
+      noRot: true
+    - state: hull
+      map: [ "enum.DamageStateVisualLayers.Base" ]
+    - state: engine
+      map: ["enum.VehicleVisualLayers.AutoAnimate"]
+    - state: lights
+      shader: unshaded
+    noRot: true
+  - type: Vehicle
+    renderOver: North, East, South, West # Frontier
+    southOffset: 0, -0.1
+    northOffset: 0, -0.1
+    eastOffset: 0.05, -0.1
+    westOffset: -0.05, -0.1
+  - type: RandomSprite
+    available:
+      - enum.DamageStateVisualLayers.Base:
+          hull: Sixteen # Rainbow, Emagged, Departmental, Advanced
+  - type: ItemSlots
+    slots:
+      key_slot:
+        name: vehicle-slot-component-slot-name-keys
+        whitelist:
+          requireAll: true
+          tags:
+          - VehicleKey
+          - ATVKeys
+        priority: 1
+        insertSound:
+          path: /Audio/Effects/Vehicle/vehiclestartup.ogg
+          params:
+            volume: -3
+      bag:
+        name: stored bag
+        whitelist:
+          components:
+            - Storage
+            - Storage
+            - Storage
+        priority: 2
+        insertSound:
+          path: /Audio/Items/belt_equip.ogg
+          params:
+            volume: -3
+  - type: ItemMapper
+    mapLayers:
+      bag:
+        whitelist:
+          components:
+            - Storage
+            - Storage
+            - Storage
+    sprite: _NF/Objects/Vehicles/car.rsi
+  - type: UnpoweredFlashlight
+  - type: PointLight
+    enabled: false
+    radius: 3.5
+    softness: 2
+    mask: /Textures/Effects/LightMasks/cone.png
+    autoRot: true
+  - type: MovementSpeedModifier
+    acceleration: 1
+    friction: 0.8
+    baseWalkSpeed: 6
+    baseSprintSpeed: 10
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 200
+      behaviors:
+        - !type:DoActsBehavior
+          acts: [ "Destruction" ]
+    - trigger:
+        !type:DamageTrigger
+        damage: 240
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak

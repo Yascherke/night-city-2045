@@ -23,7 +23,7 @@
     - state: icon-shoulder-light
     - state: icon-breathing-gear
     - state: icon-unshaded
-    - state: icon-shoulder-light-overlay-unshaded
+    - state: light-overlay
       visible: false
       shader: unshaded
       map: [ "light" ]
@@ -59,7 +59,7 @@
     spriteLayer: light
     clothingVisuals:
       outerClothing:
-      - state: equipped-shoulder-light-overlay-unshaded
+      - state: equipped-OUTERCLOTHING-light
         shader: unshaded
   - type: Clothing
     clothingVisuals:
