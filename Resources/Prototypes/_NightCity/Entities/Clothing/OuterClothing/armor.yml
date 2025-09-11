@@ -18,10 +18,10 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.35
-        Slash: 0.35
-        Piercing: 0.35
-        Heat: 0.35
+        Blunt: 0.4
+        Slash: 0.4
+        Piercing: 0.4
+        Heat: 0.7
         Caustic: 0.5
   - type: ExplosionResistance
     damageCoefficient: 0.35
@@ -49,6 +49,101 @@
   - type: PointLight
     enabled: false
     color: "#80ff80"
+    radius: 5
+    energy: 2
+    mask: /Textures/Effects/LightMasks/cone.png
+    autoRot: true
+    netsync: false
+  - type: LightBehaviour
+    behaviours:
+      - !type:FadeBehaviour
+        id: radiating
+        interpolate: Linear
+        maxDuration: 2.0
+        startValue: 3.0
+        endValue: 2.0
+        isLooped: true
+        reverseWhenFinished: true
+      - !type:PulseBehaviour
+        id: blinking
+        interpolate: Nearest
+        maxDuration: 1.0
+        startValue: 0.1 # Wizden#37444
+        endValue: 2.0 # Wizden#37444
+        isLooped: true
+  - type: Battery
+    maxCharge: 600
+    startingCharge: 600
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 2
+  - type: Item
+    size: Normal
+
+- type: entity
+  parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing, BaseC2ContrabandUnredeemable] # Frontier: BaseSecurityContraband<BaseC2ContrabandUnredeemable
+  id: ClothingOuterArmorMilitech
+  name: Бронекостюм Милитех
+  description: Бронекостюм от корпорации Милитех, обеспечивающий высокую защиту от различных видов урона. Идеально подходит для оперативников, работающих в опасных условиях.
+  components:
+  - type: Sprite
+    sprite: _NightCity/Clothing/OuterClothing/Armor/militech_hardsuit.rsi
+  - type: Clothing
+    sprite: _NightCity/Clothing/OuterClothing/Armor/militech_hardsuit.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.4
+        Slash: 0.4
+        Piercing: 0.4
+        Heat: 0.5
+  - type: ExplosionResistance
+    damageCoefficient: 0.5
+  - type: GroupExamine
+
+- type: entity
+  parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing, ContrabandClothing ] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband, added ContrabandClothing as parent
+  id: ClothingOuterArmorShock
+  name: Шоковая Броня
+  description: Шоковая Броня
+  components:
+  - type: Sprite
+    sprite: _NightCity/Clothing/OuterClothing/Armor/shock_suit.rsi
+    layers:
+    - state: icon
+    - state: light-overlay
+      visible: false
+      shader: unshaded
+  - type: Clothing
+    sprite: _NightCity/Clothing/OuterClothing/Armor/shock_suit.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.5
+        Slash: 0.3
+        Piercing: 0.5
+        Heat: 0.3
+        Caustic: 0.2
+  - type: ExplosionResistance
+    damageCoefficient: 0.35
+  #- type: StaminaResistance
+  #  damageCoefficient: 0.45
+  #Shoulder mounted flashlight
+  - type: ToggleableVisuals
+    spriteLayer: light
+    clothingVisuals:
+      outerClothing:
+      - state: equipped-OUTERCLOTHING-light
+        shader: unshaded
+  - type: ItemTogglePointLight
+  - type: Appearance
+  - type: HandheldLight
+    addPrefix: false
+    blinkingBehaviourId: blinking
+    radiatingBehaviourId: radiating
+  - type: PointLight
+    enabled: false
+    color: "#d1f52f"
     radius: 5
     energy: 2
     mask: /Textures/Effects/LightMasks/cone.png

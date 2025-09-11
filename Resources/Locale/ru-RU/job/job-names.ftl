@@ -130,17 +130,6 @@ job-name-fsfcommander-charlie = Командир Рейнджеров Чарли
 job-name-fsfspecialist-charlie = Специалист Рейнджеров Чарли
 
 
-#Arasaka
-job-name-hoda = Руководитель департамента Arasaka
-job-name-chief-security-arasaka = Начальник охраны Arasaka
-job-name-hopa = Глава персонала Arasaka
-job-name-medic-arasaka = Врач Arasaka
-job-name-netrunner-arasaka = Нетраннер Arasaka
-job-name-operative-arasaka = Оперативник Arasaka
-job-name-securityguard-arasaka = Охранник Arasaka
-job-name-squadcommander-arasaka = Командир отряда Arasaka
-job-name-technician-arasaka = Техник Arasaka
-job-name-warden-arasaka = Варден Arasaka
 
 #Civilian
 job-name-citizen = Гражданский
@@ -149,8 +138,22 @@ job-name-fixer = Фиксер
 job-name-edgerunner-solo = Эджраннер Соло
 job-name-edgerunner-netrunner = Эджраннер Нетраннер
 
+#Militech
+job-name-hodm = Руководитель департамента Милитех
+job-name-hosm = Начальник охраны Милитех
+job-name-medtechm = МедТехник Милитех
+job-name-operativem = Оперативник Милитех
+job-name-scm = Командир отряда Милитех
+job-name-secm = Охранник Милитех
 
-
+#Biotech
+job-name-hodb = Руководитель департамента Биотехники
+job-name-hosb = Начальник охраны Биотехники
+job-name-medtechb = МедТехник Биотехники
+job-name-operativeb = Оперативник Биотехники
+job-name-scb = Командир отряда Биотехники
+job-name-secb = Охранник Биотехники
+job-name-botanistb = Ботаник Биотехники
 
 
 

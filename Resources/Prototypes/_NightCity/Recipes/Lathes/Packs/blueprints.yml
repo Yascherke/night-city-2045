@@ -1,0 +1,91 @@
+# region Weapons and ammo
+
+- type: latheRecipePack
+  id: NCAmmoPack
+  recipes:
+  ## Frontier
+  # BasicAmmunitionProduction
+  - NFAmmunitionBoxShellShotgunBuckshot
+  - NFAmmunitionBoxShellShotgunSlug
+  - NFAmmunitionBoxRifle20
+  - NFAmmunitionBoxRifle30
+  - NFAmmunitionBoxPistol35
+  - NFAmmunitionBoxPistol45
+  - NFSpeedLoaderPistol35Empty
+  - NFSpeedLoaderPistol45Empty
+  - NFMagazineClipRifle20Empty
+  - MagazineLightRifleLowCapacityEmpty
+  - NFMagazinePistol35Empty
+  # NonlethalAmmunition
+  - NFAmmunitionBoxShellShotgunBeanbag
+  - NFAmmunitionBoxRifle20Rubber
+  - NFAmmunitionBoxRifle30Rubber
+  - NFAmmunitionBoxPistol35Rubber
+  - NFAmmunitionBoxPistol45Rubber
+  - NFAmmunitionBoxShellShotgunTranquilizer
+  # ImprovedPistolAmmo
+  - NFAmmunitionBoxPistol35Overpressure
+  - NFAmmunitionBoxPistol45Overpressure
+  - NFMagazineHighCapacityPistol35Empty
+  - NFMagazineSubMachineGun35Empty
+  - NFMagazineSubMachineGunTopMounted35Empty
+  - NFMagazinePistol45Empty
+  # ImprovedRifleAmmo
+  - NFAmmunitionBoxRifle20Overpressure
+  - NFAmmunitionBoxRifle30Overpressure
+  - NFAmmunitionBoxShellShotgunOverpressure
+  - NFMagazineRifle20Empty
+  - NFMagazineRifle30Empty
+  - NFMagazineDrumRifle20Empty
+  - MagazineAsmgtUniversalEmpty
+  # BulkRifleAmmo
+  - NFAmmunitionBoxBigRifle20
+  - NFAmmunitionBoxBigRifle20Overpressure
+  - NFAmmunitionBoxBigRifle30
+  - NFAmmunitionBoxBigRifle30Overpressure
+
+- type: latheRecipePack
+  id: NCWeponT1CommonPack
+  recipes:
+  - NFWeaponPistolPollock
+  - NFWeaponPistolViper
+  - NFWeaponPistolN1984
+
+- type: latheRecipePack
+  id: NCWeponT2CommonPack
+  recipes:
+  - NFWeaponSubMachineGunAtreides
+  - NFWeaponSubMachineGunWt550
+
+- type: latheRecipePack
+  id: NCWeponT3CommonPack
+  recipes:
+  - NFWeaponRifleAssaultJackdaw
+  - NFWeaponRifleAssaultNovaliteC1
+  - NFWeaponRifleAssaultGestio
+
+- type: latheRecipePack
+  id: NCWeponT1MilitechPack
+  recipes:
+  - NFWeaponPistolMk58
+  - NFWeaponPistolUniversal
+  - NFWeaponSubMachineGunC20r
+
+- type: latheRecipePack
+  id: NCWeponT2MilitechPack
+  recipes:
+  - NFWeaponSubMachineGunDrozd
+  - NFWeaponPistolCobra
+  - NFWeaponRevolverDeckard
+
+- type: latheRecipePack
+  id: NCWeponT3MilitechPack
+  recipes:
+  - NFWeaponRifleAssaultLecter
+  - NFWeaponRifleAssaultSm
+  - NFWeaponRifleAssaultVulcan
+
+- type: latheRecipePack
+  id: NCWeponT4MilitechPack
+  recipes:
+  - ClothingOuterArmorMilitech

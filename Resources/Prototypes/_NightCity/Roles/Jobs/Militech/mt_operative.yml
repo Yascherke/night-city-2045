@@ -1,0 +1,19 @@
+- type: job
+  id: OperativeMilitech
+  name: job-name-operativem
+  description: job-description-operativem
+  playTimeTracker: JobOperativeM
+  startingGear: OperativeMGear
+  icon: "JobIconHeadOfSecurity" #TODO: change icon
+  access:   #TODO: change access
+  - Maintenance
+  - Service
+  - Cryogenics
+
+
+- type: startingGear
+  id: OperativeMGear
+  equipment:
+    id: PassengerPDA
+    ears: ClothingHeadsetGrey
+    jumpsuit: ClothingUniformJumpsuitMilitaryColorYellow

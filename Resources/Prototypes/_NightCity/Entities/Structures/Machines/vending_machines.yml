@@ -1,0 +1,73 @@
+- type: entity
+  parent: [VendingMachineEngivend, BaseStructureDisableAnchoring]
+  id: VendingMachineEngivendMat
+  suffix: MAT
+  components:
+  - type: VendingMachine
+    pack: MatVendInventory
+
+
+- type: entity
+  parent: [BaseStructureDisableAnchoring, VendingMachine]
+  id: VendingMachineFlatpackVendIllegal
+  name: IllegalFlatpackVend
+  description: Essential tech for the spaceman on the go.
+  components:
+  - type: VendingMachine
+    pack: IllegalFlatpackVendInventory
+    offState: off
+    brokenState: broken
+    normalState: normal-unshaded
+    ejectState: eject-unshaded
+    denyState: deny-unshaded
+#  - type: Advertise
+#    pack: FlatpackVendAds
+  - type: Sprite
+    sprite: _NF/Structures/Machines/VendingMachines/flatpackvend.rsi
+    layers:
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.Base"]
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      shader: unshaded
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: PointLight
+    radius: 1.5
+    energy: 1.6
+    color: "#4b93ad"
+  - type: MarketModifier
+    mod: 25
+
+
+- type: entity
+  parent: [BaseStructureDisableAnchoring, VendingMachine]
+  id: VendingMachineVendIllegal
+  name: IllegalVend
+  description: Essential tech for the spaceman on the go.
+  components:
+  - type: VendingMachine
+    pack: IllegalVendInventory
+    offState: off
+    brokenState: broken
+    normalState: normal-unshaded
+    ejectState: eject-unshaded
+    denyState: deny-unshaded
+#  - type: Advertise
+#    pack: FlatpackVendAds
+  - type: Sprite
+    sprite: _NF/Structures/Machines/VendingMachines/flatpackvend.rsi
+    layers:
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.Base"]
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      shader: unshaded
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: PointLight
+    radius: 1.5
+    energy: 1.6
+    color: "#610ceb"
+  - type: MarketModifier
+    mod: 25

@@ -1,0 +1,11 @@
+- type: vendingMachineInventory
+  id: MatVendInventory
+  startingInventory:
+    MaterialWoodPlank: 4294967295 # Infinite
+    SheetPlastic: 4294967295 # Infinite
+    SheetSteel: 4294967295 # Infinite
+    SheetGlass: 4294967295 # Infinite
+    SheetPlasteel: 10
+    SheetPaper: 4294967295 # Infinite
+    MaterialCloth: 4294967295 # Infinite
+

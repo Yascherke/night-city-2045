@@ -1,0 +1,19 @@
+- type: job
+  id: MedTechM
+  name: job-name-medtechm
+  description: job-description-medtechm
+  playTimeTracker: JobMedTechM
+  startingGear: MedTechMGear
+  icon: "JobIconHeadOfSecurity" #TODO: change icon
+  access:   #TODO: change access
+  - Maintenance
+  - Service
+  - Cryogenics
+
+
+- type: startingGear
+  id: MedTechMGear
+  equipment:
+    id: PassengerPDA
+    ears: ClothingHeadsetGrey
+    jumpsuit: ClothingUniformJumpsuitMilitaryColorYellow

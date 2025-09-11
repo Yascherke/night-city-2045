@@ -1,0 +1,27 @@
+- type: vendingMachineInventory
+  id: IllegalFlatpackVendInventory
+  startingInventory:
+    HydroponicsTrayEmptyFlatpack: 4294967295 # Infinite
+    VendingMachineNutriFlatpack: 4294967295 # Infinite
+    MaterialReclaimerFlatpack: 4294967295 # Infinite
+    NFHolopadShipFlatpack: 4294967295 # Infinite
+    AutolatheFlatpack: 4294967295 # Infinite
+    ScrapProcessorFlatpack: 4294967295 # Infinite
+    CircuitImprinterFlatpack: 4294967295 # Infinite
+    ResearchAndDevelopmentServerFlatpack: 4294967295 # Infinite
+    PortableGeneratorJrPacmanFlatpack: 4294967295 # Infinite
+    KitchenReagentGrinderFlatpack: 4294967295 # Infinite
+    ChemMasterFlatpack: 4294967295 # Infinite
+    VendingMachineChemicalsFlatpack: 4294967295 # Infinite
+
+- type: vendingMachineInventory
+  id: IllegalVendInventory
+  startingInventory:
+    ChemDispenserMachineCircuitboard: 4294967295 # Infinite
+    VendingMachineRestockChemVend: 4294967295 # Infinite
+    NFWeaponPistolPollock: 4294967295 # Infinite
+    NFWeaponPistolViper: 4294967295 # Infinite
+    NFWeaponPistolN1984: 4294967295 # Infinite
+    NFMagazinePistol35: 4294967295 # Infinite
+    NFMagaNFMagazineHighCapacityPistol35: 4294967295 # Infinite
+    NFMagazinePistol45: 4294967295 # Infinite

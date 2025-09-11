@@ -55,7 +55,7 @@
   - type: ResearchClient
   - type: TechnologyDatabase
   - type: MaterialStorageMagnetPickup # Frontier
-    range: 0.30 # Frontier
+    range: 1 # Frontier
 
 # a lathe that can be sped up with space lube / slowed down with glue
 - type: entity

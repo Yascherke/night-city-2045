@@ -15,6 +15,8 @@
     magState: mag
     steps: 4
     zeroVisible: true
+  - type: Gun
+    fireRate: 10
 
 - type: entity
   id: NFWeaponLightMachineGunL6C
@@ -25,6 +27,7 @@
   components:
   - type: Gun
     examineCaliber: gun-examine-caliber-20
+    
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/lmg.ogg
     soundEmpty:

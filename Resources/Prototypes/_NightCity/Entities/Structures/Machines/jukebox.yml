@@ -1,0 +1,10 @@
+- type: entity
+  id: JukeboxNightCity
+  suffix: Night City
+  parent: [ BaseStructureDisableToolUse, JukeboxWallmount ]
+  components:
+  - type: Sprite
+    sprite: _NightCity/Structures/Machines/jukebox.rsi
+    layers:
+    - state: "off"
+      map: ["enum.JukeboxVisualLayers.Base"]

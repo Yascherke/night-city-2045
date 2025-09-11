@@ -350,7 +350,7 @@
     layers:
     - sprite: Objects/Devices/flatpack.rsi
       state: hydroponics-tray
-
+ 
 - type: entity
   parent: UniformPrinterFlatpack
   id: CutterMachineFlatpack

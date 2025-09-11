@@ -1,101 +1,167 @@
 - type: jukebox
   id: victory
-  name: Koruu Chan - Victory
+  name: American Psycho III 4.ogg
   path:
-    path: /Audio/_NF/Jukebox/victory.ogg
+    path: /Audio/Jukebox/American Psycho III 4.ogg
 
 - type: jukebox
   id: lateraligator
-  name: Silverman Sound Studios - Later Alligator
+  name: Cerberus
   path:
-    path: /Audio/_NF/Jukebox/lateraligator.ogg
+    path: /Audio/Jukebox/Cerberus.ogg
 
 - type: jukebox
   id: frontierarrivals
-  name: Troglodyte71 - Frontier Arrivals
+  name: Crystal Castles - Kept (AGTHA REMIX)
   path:
-    path: /Audio/_NF/Jukebox/frontier-arrivals.ogg
-
-- type: jukebox
-  id: singuloose
-  name: Janis Schiedkova - Singuloose
-  path:
-    path: /Audio/Lobby/singuloose.ogg
+    path: /Audio/Jukebox/Crystal Castles - Kept (AGTHA REMIX).ogg
 
 - type: jukebox
   id: retrofunky
-  name: Persephone - Retro Funky (SUNDANCE remix)
+  name: CYBERINTERNAL (Speed Up)
   path:
-    path: /Audio/_NF/Jukebox/Persephone - Retro Funky (SUNDANCE remix).ogg
+    path: /Audio/Jukebox/CYBERINTERNAL (Sped Up).ogg
 
 - type: jukebox
   id: sinner
-  name: Beat Mekanik - Sinner
+  name: Cyberpunk 2077 — Never Fade Away by SAMURAI (Refused)
   path:
-    path: /Audio/_NF/Jukebox/Beat Mekanik - Sinner.ogg
+    path: /Audio/Jukebox/Cyberpunk 2077 — Never Fade Away by SAMURAI (Refused) 4.ogg
 
 - type: jukebox
   id: sensless
-  name: Beat Mekanik - Sensless
+  name: Cyberpunk 2077 OST - The Rebel Path (Cello Version)
   path:
-    path: /Audio/_NF/Jukebox/Beat Mekanik - Senseless.ogg
+    path: /Audio/Jukebox/Cyberpunk 2077 OST - The Rebel Path (Cello Version) 4.ogg
 
 - type: jukebox
   id: lifeisgreat
-  name: Ketsa - Life is Great
+  name: CYBERPUNK 2077 SOUNDTRACK - FRIDAY NIGHT FIRE FIGHT by Aligns & Rubicones (Official Video) 
   path:
-    path: /Audio/_NF/Jukebox/Ketsa - Life is Great.ogg
+    path: /Audio/Jukebox/CYBERPUNK 2077 SOUNDTRACK - FRIDAY NIGHT FIRE FIGHT by Aligns & Rubicones (Official Video) 4.ogg
 
 - type: jukebox
   id: dreadpirateroberts
   name: Xennial - Dread Pirate Roberts
   path:
-    path: /Audio/_NF/Jukebox/Xennial - Dread Pirate Roberts.ogg
+    path: /Audio/Jukebox/Xennial - Dread Pirate Roberts.ogg
 
 - type: jukebox
   id: caffeinated
-  name: Laughing Manny & The Swinging Dicks - Caffeinated
+  name: CYBERPUNK 2077 SOUNDTRACK - MAJOR CRIMES by HEALTH & Window Weather (Official Video)
   path:
-    path: /Audio/_NF/Jukebox/Laughing Manny & The Swinging Dicks - Caffeinated.ogg
+    path: /Audio/Jukebox/CYBERPUNK 2077 SOUNDTRACK - MAJOR CRIMES by HEALTH & Window Weather (Official Video).ogg
 
 - type: jukebox
   id: bringinthehorns
-  name: Laughing Manny & The Swinging Dicks - Bring In The Horns
+  name: CYBERPUNK 2077 SOUNDTRACK - NIGHT CITY by R E L & Artemis Delta (Official Video) 4
   path:
-    path: /Audio/_NF/Jukebox/Laughing Manny & The Swinging Dicks - Bring In The Horns.ogg
+    path: /Audio/Jukebox/CYBERPUNK 2077 SOUNDTRACK - NIGHT CITY by R E L & Artemis Delta (Official Video) 4.ogg
 
 - type: jukebox
   id: meanwhilebackatthesaloon
-  name: Brett Van Donsel - Meanwhile Back At The Saloon
+  name: Cyberpunk_ Edgerunners _ “I Really Want to Stay At Your House” by Rosa Walton _ Music Video 
   path:
-    path: /Audio/_NF/Jukebox/Meanwhile Back at the Saloon.ogg
+    path: /Audio/Jukebox/Cyberpunk_ Edgerunners _ “I Really Want to Stay At Your House” by Rosa Walton _ Music Video 4.ogg
 
 - type: jukebox
   id: murderonthebayou
-  name: Bryan Teoh - Murder On The Bayou
+  name: Dansai The Maid - Start
   path:
-    path: /Audio/_NF/Jukebox/Murder On The Bayou.ogg
+    path: /Audio/Jukebox/Dansai The Maid - Start.ogg
 
 - type: jukebox
   id: dustsucker
-  name: Jens Kiilstofte - Dustsucker
+  name: Dawid Podsiadło, P.T. Adamczyk — Phantom Liberty (Official Cyberpunk 2077 Music Video) 4
   path:
-    path: /Audio/_NF/Jukebox/Dustsucker.ogg
+    path: /Audio/Jukebox/Dawid Podsiadło, P.T. Adamczyk — Phantom Liberty (Official Cyberpunk 2077 Music Video) 4.ogg
 
 - type: jukebox
   id: threesheetstothewind
-  name: Scott Buckley - Three Sheets to the Wind
+  name: Eazy-E - Switchez x Riot (Remix)
   path:
-    path: /Audio/_NF/Jukebox/ThreeSheetsToTheWind.ogg
+    path: /Audio/Jukebox/Eazy-E - Switchez x Riot (Remix).ogg
 
 - type: jukebox
   id: skubstep
-  name: Finket - SKUBSTEP
+  name: Every Time
   path:
-    path: /Audio/_NF/Jukebox/finket_ss14skubstep.ogg
+    path: /Audio/Jukebox/Every Time.ogg
 
 - type: jukebox
   id: rattlesnakerailroad
-  name: Brett Van Donsel - Rattlesnake Railroad
+  name: Jester's music from Darkest Dungeon (Metal song)
   path:
-    path: /Audio/_NF/Jukebox/rattlesnake railroad.ogg
+    path: /Audio/Jukebox/Jester's music from Darkest Dungeon (Metal song).ogg
+
+- type: jukebox
+  id: rattlesnakerailroad
+  name: MAX-TAC 2
+  path:
+    path: /Audio/Jukebox/MAX-TAC 2.ogg
+
+- type: jukebox
+  id: rattlesnakerailroad
+  name: MEALSTROM
+  path:
+    path: /Audio/Jukebox/MEALSTROM.ogg
+
+- type: jukebox
+  id: rattlesnakerailroad
+  name: Molchat Doma - Volny
+  path:
+    path: /Audio/Jukebox/Molchat Doma - Volny.ogg
+
+- type: jukebox
+  id: rattlesnakerailroad
+  name: OVSYANKA AI – QUADRIPTYCH
+  path:
+    path: /Audio/Jukebox/OVSYANKA AI – QUADRIPTYCH.ogg
+
+- type: jukebox
+  id: rattlesnakerailroad
+  name: PHANTOM RUNNER
+  path:
+    path: /Audio/Jukebox/PHANTOM RUNNER.ogg
+
+- type: jukebox
+  id: rattlesnakerailroad
+  name: Reclaim the Throne 4
+  path:
+    path: /Audio/Jukebox/Reclaim the Throne 4.ogg
+
+- type: jukebox
+  id: rattlesnakerailroad
+  name: TRAUMA TEAM
+  path:
+    path: /Audio/Jukebox/TRAUMA TEAM.ogg
+
+- type: jukebox
+  id: rattlesnakerailroad
+  name: Viliam Lane - particles 4
+  path:
+    path: /Audio/Jukebox/Viliam Lane - particles 4.ogg
+
+- type: jukebox
+  id: rattlesnakerailroad
+  name: Wushu Dolls _ Cyberpunk 2077 OST 4
+  path:
+    path: /Audio/Jukebox/Wushu Dolls _ Cyberpunk 2077 OST 4.ogg
+
+- type: jukebox
+  id: rattlesnakerailroad
+  name: Наступает ночь
+  path:
+    path: /Audio/Jukebox/Наступает ночь.ogg
+
+- type: jukebox
+  id: rattlesnakerailroad
+  name: Последний герой 4
+  path:
+    path: /Audio/Jukebox/Последний герой 4.ogg
+
+- type: jukebox
+  id: rattlesnakerailroad
+  name: тело из стали
+  path:
+    path: /Audio/Jukebox/тело из стали.ogg

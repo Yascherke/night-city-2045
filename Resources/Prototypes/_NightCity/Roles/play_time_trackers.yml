@@ -1,37 +1,21 @@
-
-# Jobs Arasaka
+# Jobs Militech
 - type: playTimeTracker
-  id: JobHeadOfDepartmentArasaka
-
-- type: playTimeTracker
-  id: JobSquadCommanderArasaka
+  id: JobHoDM
 
 - type: playTimeTracker
-  id: JobOperativeArasaka
+  id: JobHoSM
 
 - type: playTimeTracker
-  id: JobNetrunnerArasaka
+  id: JobMedTechM
 
 - type: playTimeTracker
-  id: JobChiefOfSecurityArasaka
+  id: JobOperativeM
 
 - type: playTimeTracker
-  id: JobSecurityGuardArasaka
+  id: JobSCM
 
 - type: playTimeTracker
-  id: JobWardenArasaka
-
-- type: playTimeTracker
-  id: JobHeadOfPersonnelArasaka
-
-- type: playTimeTracker
-  id: JobMedicArasaka
-
-- type: playTimeTracker
-  id: JobSupplyArasaka
-
-- type: playTimeTracker
-  id: JobTechnicianArasaka
+  id: JobSecM
 
 # Jobs Civilian
 - type: playTimeTracker
@@ -45,7 +29,3 @@
 
 - type: playTimeTracker
   id: JobEdgeRunnerSolo
-
-- type: playTimeTracker
-  id: JobEdgeRunnerNetRunner
-

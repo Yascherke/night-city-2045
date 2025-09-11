@@ -1,0 +1,19 @@
+- type: job
+  id: SecurityMilitech
+  name: job-name-secm
+  description: job-description-secm
+  playTimeTracker: JobSecM
+  startingGear: SecMGear
+  icon: "JobIconHeadOfSecurity" #TODO: change icon
+  access:   #TODO: change access
+  - Maintenance
+  - Service
+  - Cryogenics
+
+
+- type: startingGear
+  id: SecMGear
+  equipment:
+    id: PassengerPDA
+    ears: ClothingHeadsetGrey
+    jumpsuit: ClothingUniformJumpsuitMilitaryColorYellow

@@ -1,0 +1,19 @@
+- type: job
+  id: HoSMilitech
+  name: job-name-hosm
+  description: job-description-hosm
+  playTimeTracker: JobHoSM
+  startingGear: HoSMGear
+  icon: "JobIconHeadOfSecurity" #TODO: change icon
+  access:   #TODO: change access
+  - Maintenance
+  - Service
+  - Cryogenics
+
+
+- type: startingGear
+  id: HoSGear
+  equipment:
+    id: PassengerPDA
+    ears: ClothingHeadsetGrey
+    jumpsuit: ClothingUniformJumpsuitMilitaryColorYellow

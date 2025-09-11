@@ -1,27 +1,33 @@
-- files: ["sector11.ogg"]
-  license: "CC-BY-NC-SA-3.0"
-  copyright: "-Sector11 by MashedByMachines. Converted to mono OGG."
-  source: "https://www.newgrounds.com/audio/listen/312622"
-
-- files: ["mod.flip-flap.ogg"]
-  license: "Custom"
-  copyright: "Flip Flap by X-ceed is licensed under a short but clear license (see flip-flap.txt in Audio/Lobby) and is free for non-commercial use. Converted to mono OGG."
-  source: "http://aminet.net/package/mods/xceed/Flipflap"
-
-- files: ["title3.ogg"]
-  license: "CC-BY-NC-SA-3.0"
-  copyright: "Title3 by Cuboos. It is a remix of the song 'Tintin on the Moon'. Converted to mono OGG."
-  source: "https://www.youtube.com/watch?v=YKVmXn-Gv0M"
-
 - files:
-  - "constellations.ogg"
-  - "drifting.ogg"
-  - "starlight.ogg"
+  - "American Psycho III 4.ogg"
+  - "Cerberus.ogg"
+  - "Crystal Castles - Kept (AGTHA REMIX) 4.ogg"
+  - "CYBERINTERNAL (Sped Up).ogg"
+  - "Cyberpunk 2077 — Never Fade Away by SAMURAI (Refused) 4.ogg" 
+  - "Cyberpunk 2077 OST - The Rebel Path (Cello Version) 4.ogg"
+  - "CYBERPUNK 2077 SOUNDTRACK - FRIDAY NIGHT FIRE FIGHT by Aligns & Rubicones (Official Video) 4.ogg"
+  - "CYBERPUNK 2077 SOUNDTRACK - MAJOR CRIMES by HEALTH & Window Weather (Official Video).ogg"
+  - "CYBERPUNK 2077 SOUNDTRACK - NIGHT CITY by R E L & Artemis Delta (Official Video) 4.ogg"
+  - "Cyberpunk_ Edgerunners _ “I Really Want to Stay At Your House” by Rosa Walton _ Music Video 4.ogg"
+  - "Dansai The Maid - Start.ogg"
+  - "Dawid Podsiadło, P.T. Adamczyk — Phantom Liberty (Official Cyberpunk 2077 Music Video) 4.ogg"
+  - "Eazy-E - Switchez x Riot (Remix).ogg"
+  - "Every Time.ogg"
+  - "Jester's music from Darkest Dungeon (Metal song).ogg"
+  - "MAX-TAC 2.ogg"
+  - "MEALSTROM.ogg"
+  - "Molchat Doma - Volny.ogg"
+  - "OVSYANKA AI – QUADRIPTYCH.ogg"
+  - "PHANTOM RUNNER.ogg"
+  - "Reclaim the Throne 4.ogg"
+  - "TRAUMA TEAM.ogg"
+  - "Viliam Lane - particles 4.ogg"
+  - "Wushu Dolls _ Cyberpunk 2077 OST 4.ogg"
+  - "Наступает ночь.ogg"
+  - "Последний герой 4.ogg"
+  - "тело из стали.ogg"
+
   license: "CC-BY-3.0"
   copyright: "Constellations by Qwertyquerty. Converted to mono OGG."
-  source: "https://www.youtube.com/channel/UCPYbhBUGhH7n_G4HLK2YipQ"
+  source: "https://www.youtube.com"
 
-- files: ["sunset.ogg"]
-  license: "CC-BY-SA-3.0"
-  copyright: "Sunset by PigeonBeans. Exported in Mono OGG."
-  source: "https://soundcloud.com/pigeonbeans/sunset"

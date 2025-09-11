@@ -17,10 +17,26 @@
     - UplinkJob
     - UplinkPointless
     currencyWhitelist:
-    - Telecrystal
-    balance:
-      Telecrystal: 0
+    - Speso
 
+- type: entity
+  id: StorePresetFixerUplink
+  abstract: true
+  components:
+  - type: Store
+    name: store-preset-name-uplink
+    categories:
+    - NCUplinkWeaponary
+    - NCUplinkAmmo
+    - NCUplinkExplosives
+    - NCUplinkChemicals
+    - NCUplinkDeception
+    - NCUplinkImplants
+    - NCUplinkPointless
+    currencyWhitelist:
+    - Speso
+
+      
 - type: entity
   id: StorePresetSpellbook
   abstract: true

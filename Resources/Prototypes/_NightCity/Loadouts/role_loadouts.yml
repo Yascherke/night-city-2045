@@ -1,54 +1,6 @@
-# TODO: Add more Arasaka specific items
-# Arasaka
-- type: roleLoadout 
-  id: JobHeadOfDepartmentArasaka
-  groups:
-  - PassengerJumpsuit
-
-- type: roleLoadout
-  id: JobSquadCommanderArasaka
-  groups:
-  - PassengerJumpsuit
-
-- type: roleLoadout
-  id: JobOperativeArasaka
-  groups:
-  - PassengerJumpsuit
-
-- type: roleLoadout
-  id: JobNetrunnerArasaka
-  groups:
-  - PassengerJumpsuit
-
-- type: roleLoadout
-  id: JobChiefOfSecurityArasaka
-  groups:
-  - PassengerJumpsuit
-
-- type: roleLoadout
-  id: JobSecurityGuardArasaka
-  groups:
-  - PassengerJumpsuit
-
-- type: roleLoadout
-  id: JobWardenArasaka
-  groups:
-  - PassengerJumpsuit
-  - CommonBackpack
-
-- type: roleLoadout
-  id: JobHeadOfPersonnelArasaka
-  groups:
-  - PassengerJumpsuit
-
-- type: roleLoadout
-  id: JobMedicArasaka
-  groups:
-  - PassengerJumpsuit
-
 # Civilian
 - type: roleLoadout
-  id: JobCitizen
+  id: JobCitizenNC
   groups:
   - PassengerJumpsuit
 
@@ -76,7 +28,3 @@
   groups:
   - PassengerJumpsuit
 
-  - type: roleLoadout
-  id: JobEdgeRunnerNetRunner
-  groups:
-  - PassengerJumpsuit

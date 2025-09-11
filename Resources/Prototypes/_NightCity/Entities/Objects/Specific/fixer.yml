@@ -1,0 +1,32 @@
+- type: entity
+  parent: [BaseItem, StorePresetFixerUplink, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
+  id: FixerUplinkRadio
+  name: fixer uplink
+  description: Suspiciously looking old radio...
+  suffix: Empty
+  components:
+  - type: Sprite
+    sprite: Objects/Devices/communication.rsi
+    layers:
+    - state: old-radio
+  - type: Item
+    sprite: Objects/Devices/communication.rsi
+    heldPrefix: old-radio
+  - type: UserInterface
+    interfaces:
+      enum.StoreUiKey.Key:
+        type: StoreBoundUserInterface
+  - type: ActivatableUI
+    key: enum.StoreUiKey.Key
+  - type: Store
+    balance:
+      Speso: 0
+
+- type: entity
+  parent: FixerUplinkRadio
+  id: BaseUplinkRadio20k
+  suffix: 20k
+  components:
+  - type: Store
+    balance:
+      Speso: 20000

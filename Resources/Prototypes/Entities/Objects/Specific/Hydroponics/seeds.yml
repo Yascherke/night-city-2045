@@ -439,6 +439,7 @@
       seedId: aloe
     - type: Sprite
       sprite: Objects/Specific/Hydroponics/aloe.rsi
+  
 
 - type: entity
   parent: SeedBase

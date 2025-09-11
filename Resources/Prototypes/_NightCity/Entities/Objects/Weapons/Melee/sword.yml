@@ -1,0 +1,32 @@
+- type: entity
+  name: Arasaka Weeping Reaver Katana
+  parent: CaptainSabre
+  id: ArasakaWeepingReaverKatana
+  description: An ancient design manufactured with modern materials and machines for a very specific target demographic.
+  components:
+  - type: Sharp
+  - type: Sprite
+    sprite: _NightCity/Objects/Weapons/Melee/arasaka_wr_katana.rsi
+    state: icon
+  - type: MeleeWeapon
+    wideAnimationRotation: -135
+    attackRate: 3
+    damage:
+      types:
+        Slash: 30
+    soundHit:
+        path: /Audio/Weapons/bladeslice.ogg
+  - type: Reflect
+    reflectProb: .1
+    spread: 90
+  - type: Item
+    sprite: _NightCity/Objects/Weapons/Melee/arasaka_wr_katana.rsi
+  - type: DisarmMalus
+  - type: Clothing
+    quickEquip: false
+    slots:
+    - back
+    - suitStorage
+    - belt
+
+

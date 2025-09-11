@@ -13,7 +13,7 @@ ent-EncryptionKeyMercenary = ключ шифрования канала наём
 
 chat-radio-mercenary = Наёмник
 
-bank-currency-display-spesos = Кредитов
+bank-currency-display-spesos = Евродолларов
 
 store-merc-category-hardsuit = скафандры
 

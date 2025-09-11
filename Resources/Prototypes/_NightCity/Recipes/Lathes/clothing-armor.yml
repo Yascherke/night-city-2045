@@ -1,0 +1,9 @@
+# Armor
+- type: latheRecipe
+  id: ClothingOuterArmorMilitech
+  parent: NFBaseArmorRecipe
+  result: ClothingOuterArmorMilitech
+  materials:
+    Durathread: 700
+    Steel: 300
+    Plasteel: 1000

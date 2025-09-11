@@ -107,6 +107,7 @@
   components:
   - type: Cable
     cuttingQuality: null
+  
 
 - type: entity
   parent: CableBase
@@ -161,6 +162,7 @@
   components:
   - type: Cable
     cuttingQuality: null
+
 
 - type: entity
   parent: CableBase

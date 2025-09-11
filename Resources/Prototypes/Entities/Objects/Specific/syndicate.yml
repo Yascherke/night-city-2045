@@ -70,7 +70,9 @@
     key: enum.StoreUiKey.Key
   - type: Store
     balance:
-      Telecrystal: 0
+      Speso: 0
+
+
 
 - type: entity
   parent: BaseUplinkRadio

@@ -103,3 +103,40 @@
   id: DiscountedItems
   name: store-discounted-items
   priority: 200
+
+
+#  Night City 2045 Uplink Store Categories
+- type: storeCategory
+  id: NCUplinkWeaponary
+  name: store-category-weapons
+  priority: 0
+
+- type: storeCategory
+  id: NCUplinkAmmo
+  name: store-category-ammo
+  priority: 1
+
+- type: storeCategory
+  id: NCUplinkExplosives
+  name: store-category-explosives
+  priority: 2
+
+- type: storeCategory
+  id: NCUplinkChemicals
+  name: store-category-chemicals
+  priority: 3
+
+- type: storeCategory
+  id: NCUplinkIllegal
+  name: Запрещёнка
+  priority: 4
+
+- type: storeCategory
+  id: NCUplinkImplants
+  name: store-category-implants
+  priority: 5
+
+- type: storeCategory
+  id: NCUplinkPointless
+  name: store-category-pointless
+  priority: 6

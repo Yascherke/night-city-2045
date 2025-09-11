@@ -21,6 +21,7 @@
     balance:
       Telecrystal: 0
 
+
 - type: entity
   id: StorePresetSecurityUplink
   abstract: true

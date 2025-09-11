@@ -72,4 +72,20 @@ job-description-fixer = Время делать деньги
 job-description-edgerunner-netrunner = Время воровать ценные киберданные сраных корпов
 job-description-edgerunner-solo = Сила есть ума не надо, а если еще и пушка есть...
 
+#Militech
+job-description-hodm = Руководитель департамента Милитех
+job-description-hosm = Начальник охраны Милитех
+job-description-medtechm = МедТехник Милитех
+job-description-operativem = Оперативник Милитех
+job-description-scm = Командир отряда Милитех
+job-description-secm = Охранник Милитех
+
+#Biotech
+job-description-hodb = Руководитель департамента Биотехники
+job-description-hosb = Начальник охраны Биотехники
+job-description-medtechb = МедТехник Биотехники
+job-description-operativeb = Оперативник Биотехники
+job-nadescriptionme-scb = Командир отряда Биотехники
+job-description-secb = Охранник Биотехники
+job-description-botanistb = Ботаник Биотехники
 

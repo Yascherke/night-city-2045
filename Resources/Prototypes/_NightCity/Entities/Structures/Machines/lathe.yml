@@ -1,0 +1,163 @@
+
+- type: entity
+  id: ProtolatheBasic
+  parent: [BaseLatheLube, NFBlueprintReceiverBase] # Frontier: Add BlueprintRecieverBase as parent
+  name: Протолат Общего Назначения
+  description: Аппарат для создания базового оружия и инструментов.
+  components:
+  - type: Sprite
+    sprite: _NightCity/Structures/Machines/getto_protolathe.rsi
+    snapCardinals: true
+    layers:
+    - state: getto_icon
+      map: ["enum.LatheVisualLayers.IsRunning"]
+    - state: getto_unlit
+      shader: unshaded
+      map: ["enum.PowerDeviceVisualLayers.Powered"]
+    - state: inserting
+      map: ["enum.MaterialStorageVisualLayers.Inserting"]
+    - state: getto_panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: Machine
+    board: ProtolatheMachineCircuitboard
+  - type: MaterialStorage
+    whitelist:
+      tags:
+        - Sheet
+        - RawMaterial
+        - Ingot
+  - type: OreSiloClient
+  - type: Lathe
+    idleState: getto_icon
+    runningState: getto_building
+    unlitIdleState: getto_unlit
+    unlitRunningState: getto_unlit-building
+    dynamicPacks:
+    - NCAmmoPack
+    - NCWeponT1CommonPack
+    - NCWeponT2CommonPack
+    - NCWeponT3CommonPack
+  - type: EmagLatheRecipes
+    emagDynamicPacks:
+    - NfsdAmmoStatic # Frontier: SecurityAmmo<NfsdAmmoStatic
+    - SecurityExplosives
+    - SecurityEquipment
+  - type: BlueprintReceiver
+    whitelist:
+      tags:
+      - NFBlueprintProtolathe
+  - type: ContainerContainer
+    containers:
+      machine_board: !type:Container
+      machine_parts: !type:Container
+      blueprint: !type:Container
+  # End Frontier: accept blueprints
+
+- type: entity
+  id: ProtolatheMilitech
+  parent: [BaseLatheLube, NFBlueprintReceiverBase] # Frontier: Add BlueprintRecieverBase as parent
+  name: Протолат Militech
+  description: Weapon crafter for advanced firearms.
+  components:
+  - type: Sprite
+    sprite: _NightCity/Structures/Machines/militech_protolathe.rsi
+    snapCardinals: true
+    layers:
+    - state: militech_icon
+      map: ["enum.LatheVisualLayers.IsRunning"]
+    - state: militech_unlit
+      shader: unshaded
+      map: ["enum.PowerDeviceVisualLayers.Powered"]
+    - state: inserting
+      map: ["enum.MaterialStorageVisualLayers.Inserting"]
+    - state: militech_panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: Machine
+    board: ProtolatheMachineCircuitboard
+  - type: MaterialStorage
+    whitelist:
+      tags:
+        - Sheet
+        - RawMaterial
+        - Ingot
+  - type: OreSiloClient
+  - type: Lathe
+    idleState: militech_icon
+    runningState: militech_building
+    unlitIdleState: militech_unlit
+    unlitRunningState: militech_unlit-building 
+    dynamicPacks:
+    - NCAmmoPack
+    - NCWeponT1MilitechPack
+    - NCWeponT2MilitechPack
+    - NCWeponT3MilitechPack
+    - NCWeponT4MilitechPack
+  - type: EmagLatheRecipes
+    emagDynamicPacks:
+    - NfsdAmmoStatic # Frontier: SecurityAmmo<NfsdAmmoStatic
+    - SecurityExplosives
+    - SecurityEquipment
+  - type: BlueprintReceiver
+    whitelist:
+      tags:
+      - NFBlueprintProtolathe
+  - type: ContainerContainer
+    containers:
+      machine_board: !type:Container
+      machine_parts: !type:Container
+      blueprint: !type:Container
+  # End Frontier: accept blueprints
+
+- type: entity
+  id: ProtolatheBiotech
+  parent: [BaseLatheLube, NFBlueprintReceiverBase] # Frontier: Add BlueprintRecieverBase as parent
+  name: Протолат Biotech
+  description: Weapon crafter for advanced firearms.
+  components:
+  - type: Sprite
+    sprite: _NightCity/Structures/Machines/biotech_protolathe.rsi
+    snapCardinals: true
+    layers:
+    - state: biotech_icon
+      map: ["enum.LatheVisualLayers.IsRunning"]
+    - state: biotech_unlit
+      shader: unshaded
+      map: ["enum.PowerDeviceVisualLayers.Powered"]
+    - state: inserting
+      map: ["enum.MaterialStorageVisualLayers.Inserting"]
+    - state: biotech_panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: Machine
+    board: ProtolatheMachineCircuitboard
+  - type: MaterialStorage
+    whitelist:
+      tags:
+        - Sheet
+        - RawMaterial
+        - Ingot
+  - type: OreSiloClient
+  - type: Lathe
+    idleState: biotech_icon
+    runningState: biotech_building
+    unlitIdleState: biotech_unlit
+    unlitRunningState: biotech_unlit-building
+    dynamicPacks:
+    - NCAmmoPack
+    - NCWeponT1MilitechPack
+    - NCWeponT2MilitechPack
+    - NCWeponT3MilitechPack
+    - NCWeponT4MilitechPack
+  - type: EmagLatheRecipes
+    emagDynamicPacks:
+    - NfsdAmmoStatic # Frontier: SecurityAmmo<NfsdAmmoStatic
+  - type: BlueprintReceiver
+    whitelist:
+      tags:
+      - NFBlueprintProtolathe
+  - type: ContainerContainer
+    containers:
+      machine_board: !type:Container
+      machine_parts: !type:Container
+      blueprint: !type:Container
+  # End Frontier: accept blueprints
+

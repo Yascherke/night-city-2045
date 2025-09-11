@@ -1,0 +1,7 @@
+- type: entity
+  id: FixerUplinkImplanter
+  name: fixer uplink implanter
+  parent: BaseImplantOnlyImplanterSyndi
+  components:
+  - type: Implanter
+    implant: UplinkImplant

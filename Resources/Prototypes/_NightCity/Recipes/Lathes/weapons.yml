@@ -1,0 +1,138 @@
+# region Ranged weapons
+
+- type: latheRecipe
+  id: NFWeaponPistolPollock
+  result: NFWeaponPistolPollock
+  parent: BaseWeaponRecipeLong
+  materials:
+    Steel: 1000
+    Silver: 500
+
+- type: latheRecipe
+  id: NFWeaponPistolViper
+  result: NFWeaponPistolViper
+  parent: BaseWeaponRecipeLong
+  materials:
+    Steel: 1100
+    Silver: 600
+
+- type: latheRecipe
+  id: NFWeaponPistolN1984
+  result: NFWeaponPistolN1984
+  parent: BaseWeaponRecipeLong
+  materials:
+    Steel: 1200
+    Silver: 700
+
+- type: latheRecipe
+  id: NFWeaponPistolMk58
+  result: NFWeaponPistolMk58
+  parent: BaseWeaponRecipeLong
+  materials:
+    Steel: 1300
+    Silver: 800
+
+- type: latheRecipe
+  id: NFWeaponPistolUniversal
+  result: NFWeaponPistolUniversal
+  parent: BaseWeaponRecipeLong
+  materials:
+    Steel: 1400
+    Silver: 900
+
+- type: latheRecipe
+  id: NFWeaponPistolCobra
+  result: NFWeaponPistolCobra
+  parent: BaseWeaponRecipeLong
+  materials:
+    Steel: 1500
+    Silver: 1000
+
+- type: latheRecipe
+  id: NFWeaponRevolverDeckard
+  result: NFWeaponRevolverDeckard
+  parent: BaseWeaponRecipeLong
+  materials:
+    Steel: 2000
+    Silver: 1500
+
+- type: latheRecipe
+  id: NFWeaponSubMachineGunAtreides
+  result: NFWeaponSubMachineGunAtreides
+  parent: BaseWeaponRecipeLong
+  materials:
+    Steel: 3000
+    Silver: 2000
+
+- type: latheRecipe
+  id: NFWeaponSubMachineGunWt550
+  result: NFWeaponSubMachineGunWt550
+  parent: BaseWeaponRecipeLong
+  materials:
+    Steel: 3200
+    Silver: 2200
+
+- type: latheRecipe
+  id: NFWeaponSubMachineGunC20r
+  result: NFWeaponSubMachineGunC20r
+  parent: BaseWeaponRecipeLong
+  materials:
+    Steel: 3400
+    Silver: 2400
+
+- type: latheRecipe
+  id: NFWeaponSubMachineGunDrozd
+  result: NFWeaponSubMachineGunDrozd
+  parent: BaseWeaponRecipeLong 
+  materials:
+    Steel: 3600
+    Silver: 2600
+  
+- type: latheRecipe
+  id: NFWeaponRifleAssaultJackdaw
+  result: NFWeaponRifleAssaultJackdaw
+  parent: BaseWeaponRecipeLong
+  materials:
+    Steel: 4000
+    Silver: 3000
+
+- type: latheRecipe
+  id: NFWeaponRifleAssaultNovaliteC1
+  result: NFWeaponRifleAssaultNovaliteC1
+  parent: BaseWeaponRecipeLong
+  materials:
+    Steel: 4200
+    Silver: 3200
+
+- type: latheRecipe
+  id: NFWeaponRifleAssaultGestio
+  result: NFWeaponRifleAssaultGestio
+  parent: BaseWeaponRecipeLong
+  materials:
+    Steel: 4400
+    Silver: 3400
+
+- type: latheRecipe
+  id: NFWeaponRifleAssaultLecter
+  result: NFWeaponRifleAssaultLecter
+  parent: BaseWeaponRecipeLong
+  materials:
+    Steel: 4600
+    Silver: 3600
+
+- type: latheRecipe
+  id: NFWeaponRifleAssaultSm
+  result: NFWeaponRifleAssaultSm
+  parent: BaseWeaponRecipeLong
+  materials:
+    Steel: 4800
+    Silver: 3800
+
+- type: latheRecipe
+  id: NFWeaponRifleAssaultVulcan
+  result: NFWeaponRifleAssaultVulcan
+  parent: BaseWeaponRecipeLong
+  materials:
+    Steel: 5000
+    Silver: 4000
+

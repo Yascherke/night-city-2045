@@ -6,19 +6,14 @@
   startingGear: EdgeRunnerSoloGear
   icon: "JobIconHeadOfSecurity" #TODO: change icon
   access:   #TODO: change access
-  - Medical
-  - Command
-  - Brig
-  - Security
-  - Armory
   - Maintenance
   - Service
-  - External
-  - Detective
   - Cryogenics
+
 
 - type: startingGear
   id: EdgeRunnerSoloGear
   equipment:
     id: PassengerPDA
     ears: ClothingHeadsetGrey
+    jumpsuit: ClothingUniformJumpsuitMilitaryColorYellow

@@ -1,0 +1,19 @@
+- type: job
+  id: SquadCommanderMilitech
+  name: job-name-scm
+  description: job-description-scm
+  playTimeTracker: JobSCM
+  startingGear: SquadCommanderMGear
+  icon: "JobIconHeadOfSecurity" #TODO: change icon
+  access:   #TODO: change access
+  - Maintenance
+  - Service
+  - Cryogenics
+
+
+- type: startingGear
+  id: SquadCommanderMGear
+  equipment:
+    id: PassengerPDA
+    ears: ClothingHeadsetGrey
+    jumpsuit: ClothingUniformJumpsuitMilitaryColorYellow
