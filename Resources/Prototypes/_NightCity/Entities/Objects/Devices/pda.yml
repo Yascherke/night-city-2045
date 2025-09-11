@@ -1,0 +1,246 @@
+# CivilianNC
+- type: entity
+  parent: BasePDA
+  id: CitizenPDA
+  name: PDA жителя Night City
+  components:
+    - type: Pda
+      id: CitizenIDCard
+    - type: Appearance
+      appearanceDataInit:
+        enum.PdaVisuals.PdaType: !type:String pda
+    - type: PdaBorderColor
+      borderColor: "#717059"
+    - type: Icon
+      state: pda
+
+- type: entity
+  parent: BasePDA
+  id: EdgeRunnerSoloPDA
+  name: PDA EdgeRunner Solo
+  components:
+    - type: Pda
+      id: EdgeRunnerSoloIDCard
+    - type: Appearance
+      appearanceDataInit:
+        enum.PdaVisuals.PdaType: !type:String pda
+    - type: PdaBorderColor
+      borderColor: "#717059"
+    - type: Icon
+      state: pda
+
+# Militech
+- type: entity
+  parent: BaseSecurityPDA
+  id: HoSMilitechPDA
+  name: PDA главы службы безопасности Militech
+  components:
+    - type: Pda
+      id: HoSMilitechIDCard
+    - type: Appearance
+      appearanceDataInit:
+        enum.PdaVisuals.PdaType: !type:String pda-hos
+    - type: PdaBorderColor
+      borderColor: "#A32D26"
+    - type: Icon
+      state: pda-hos
+
+- type: entity
+  parent: BaseSecurityPDA
+  id: OperativeMilitechPDA
+  name: PDA оперативника Militech
+  components:
+    - type: Pda
+      id: OperativeMilitechIDCard
+    - type: Appearance
+      appearanceDataInit:
+        enum.PdaVisuals.PdaType: !type:String pda-security
+    - type: PdaBorderColor
+      borderColor: "#A32D26"
+    - type: Icon
+      state: pda-security
+
+# Biotech
+- type: entity
+  parent: BaseMedicalPDA
+  id: HoSBiotechPDA
+  name: PDA главы службы безопасности Biotech
+  components:
+    - type: Pda
+      id: HoSBiotechIDCard
+    - type: Appearance
+      appearanceDataInit:
+        enum.PdaVisuals.PdaType: !type:String pda-cmo
+    - type: PdaBorderColor
+      borderColor: "#d7d7d0"
+    - type: Icon
+      state: pda-cmo
+
+- type: entity
+  parent: BaseMedicalPDA
+  id: BotanistBiotechPDA
+  name: PDA ботаника Biotech
+  components:
+    - type: Pda
+      id: BotanistBiotechIDCard
+    - type: Appearance
+      appearanceDataInit:
+        enum.PdaVisuals.PdaType: !type:String pda-hydro
+    - type: PdaBorderColor
+      borderColor: "#44843c"
+    - type: Icon
+      state: pda-hydro
+
+# NCPD
+- type: entity
+  parent: BaseSecurityPDA
+  id: NCPDChiefPDA
+  name: PDA начальника полиции NCPD
+  components:
+    - type: Pda
+      id: NCPDChiefIDCard
+    - type: Appearance
+      appearanceDataInit:
+        enum.PdaVisuals.PdaType: !type:String pda-hos
+    - type: PdaBorderColor
+      borderColor: "#A32D26"
+    - type: Icon
+      state: pda-hos
+
+- type: entity
+  parent: BaseSecurityPDA
+  id: NCPDProsecutorPDA
+  name: PDA прокурора NCPD
+  components:
+    - type: Pda
+      id: NCPDProsecutorIDCard
+    - type: Appearance
+      appearanceDataInit:
+        enum.PdaVisuals.PdaType: !type:String pda-lawyer
+    - type: PdaBorderColor
+      borderColor: "#6f6192"
+    - type: Icon
+      state: pda-lawyer
+
+# Government
+- type: entity
+  parent: HoPPDA
+  id: MayorPDA
+  name: PDA мэра
+  components:
+    - type: Pda
+      id: MayorIDCard
+    - type: Appearance
+      appearanceDataInit:
+        enum.PdaVisuals.PdaType: !type:String pda-hop
+    - type: PdaBorderColor
+      borderColor: "#789876"
+    - type: Icon
+      state: pda-hop
+
+# Builders
+- type: entity
+  parent: BasePDA
+  id: BuilderPDA
+  name: PDA строителя
+  components:
+    - type: Pda
+      id: BuilderIDCard
+    - type: Appearance
+      appearanceDataInit:
+        enum.PdaVisuals.PdaType: !type:String pda-engineer
+    - type: PdaBorderColor
+      borderColor: "#949137"
+    - type: Icon
+      state: pda-engineer
+
+- type: entity
+  parent: CEPDA
+  id: BuilderChiefPDA
+  name: PDA руководителя строителей
+  components:
+    - type: Pda
+      id: BuilderChiefIDCard
+    - type: Appearance
+      appearanceDataInit:
+        enum.PdaVisuals.PdaType: !type:String pda-ce
+    - type: PdaBorderColor
+      borderColor: "#949137"
+    - type: Icon
+      state: pda-ce
+
+# TraumaTeam
+- type: entity
+  parent: CMOPDA
+  id: TraumaTeamChiefPDA
+  name: PDA руководителя TraumaTeam
+  components:
+    - type: Pda
+      id: TraumaTeamChiefIDCard
+    - type: Appearance
+      appearanceDataInit:
+        enum.PdaVisuals.PdaType: !type:String pda-cmo
+    - type: PdaBorderColor
+      borderColor: "#d7d7d0"
+    - type: Icon
+      state: pda-cmo
+
+- type: entity
+  parent: MedicalPDA
+  id: TraumaTeamDoctorPDA
+  name: PDA врача TraumaTeam
+  components:
+    - type: Pda
+      id: TraumaTeamDoctorIDCard
+    - type: Appearance
+      appearanceDataInit:
+        enum.PdaVisuals.PdaType: !type:String pda-medical
+    - type: PdaBorderColor
+      borderColor: "#d7d7d0"
+    - type: Icon
+      state: pda-medical
+
+- type: entity
+  parent: ChemistryPDA
+  id: TraumaTeamChemistPDA
+  name: PDA химика TraumaTeam
+  components:
+    - type: Pda
+      id: TraumaTeamChemistIDCard
+    - type: Appearance
+      appearanceDataInit:
+        enum.PdaVisuals.PdaType: !type:String pda-chemistry
+    - type: PdaBorderColor
+      borderColor: "#d7d7d0"
+    - type: Icon
+      state: pda-chemistry
+
+- type: entity
+  parent: ParamedicPDA
+  id: TraumaTeamParamedicPDA
+  name: PDA парамедика TraumaTeam
+  components:
+    - type: Pda
+      id: TraumaTeamParamedicIDCard
+    - type: Appearance
+      appearanceDataInit:
+        enum.PdaVisuals.PdaType: !type:String pda-paramedic
+    - type: PdaBorderColor
+      borderColor: "#d7d7d0"
+    - type: Icon
+      state: pda-paramedic
+
+- type: entity
+  parent: BaseSecurityPDA
+  id: TraumaTeamOperativePDA
+  name: PDA оперативника TraumaTeam
+  components:
+    - type: Pda
+      id: TraumaTeamOperativeIDCard
+    - type: Appearance
+      appearanceDataInit:
+        enum.PdaVisuals.PdaType: !type:String pda-security
+    - type: PdaBorderColor
+      borderColor: "#A32D26"
+    - type: Icon
+      state: pda-security
