@@ -42,43 +42,49 @@ public sealed partial class IdCardConsoleComponent : Component
     [DataField, AutoNetworkedField]
     public List<ProtoId<AccessLevelPrototype>> AccessLevels = new()
     {
-        "Armory",
+        //"Armory",
         //"Atmospherics",
-        "Bailiff", // Frontier
+        //"Bailiff", // Frontier
         //"Bar",
-        "Brig",
-        "Brigmedic", // Frontier
-        "Captain",
+        //"Brig",
+        //"Brigmedic", // Frontier
+        //"Captain",
         //"Cargo",
         //"Chapel",
         //"Chemistry",
         //"ChiefMedicalOfficer",
-        "Command",
+        //"Command",
         //"Cryogenics",
-        "Detective", // Frontier: moved into alphabetical order
-        "Engineering",
-        "External",
-        "Frontier", // Frontier
+        //"Detective", // Frontier: moved into alphabetical order
+        //"Engineering",
+        //"External",
+        //"Frontier", // Frontier
         //"Hydroponics",
-        "Janitor",
+        //"Janitor",
         //"Kitchen",
         //"Lawyer",
-        "Mail", // Frontier
-        "Maintenance",
-        "Medical",
-        "Mercenary", // Frontier
-        "ChiefEngineer", // Frontier: moved down, alphabetic w.r.t. "Plant Manager"
+        //"Mail", // Frontier
+        //"Maintenance",
+        //"Medical",
+        //"Mercenary", // Frontier
+        //"ChiefEngineer", // Frontier: moved down, alphabetic w.r.t. "Plant Manager"
         //"Quartermaster",
         //"Research",
         //"ResearchDirector",
         //"Salvage",
-        "Security",
-        "Sergeant", // Frontier
-        "Service",
-        "HeadOfSecurity", // Frontier: moved down, alphabetic w.r.t. "Sheriff"
-        "HeadOfPersonnel", // Frontier: moved down, alphabetic w.r.t. "Station Representative"
-        "StationTrafficController", // Frontier
+        //"Security",
+        //"Sergeant", // Frontier
+        //"Service",
+        //"HeadOfSecurity", // Frontier: moved down, alphabetic w.r.t. "Sheriff"
+        //"HeadOfPersonnel", // Frontier: moved down, alphabetic w.r.t. "Station Representative"
+        //"StationTrafficController", // Frontier
         //"Theatre",
+
+        "TraumaTeam",
+        "NCPD",
+        "Militech",
+        "Biotech",
+        "Mayor",
     };
 
     [Serializable, NetSerializable]

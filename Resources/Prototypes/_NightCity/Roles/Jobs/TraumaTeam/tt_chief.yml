@@ -4,7 +4,6 @@
   description: job-description-traumateam-chief
   playTimeTracker: JobTraumaTeamChief
   startingGear: TraumaTeamChiefGear
-  icon: "JobIconChiefMedicalOfficer" #TODO: заменить иконку
   access:
     - Maintenance
     - Service
@@ -15,4 +14,4 @@
   equipment:
     id: PassengerPDA
     ears: ClothingHeadsetGrey
-    jumpsuit: ClothingUniformJumpsuitMedicalColorWhite
+    jumpsuit: ClothingUniformJumpsuitColorGrey

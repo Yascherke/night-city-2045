@@ -4,7 +4,6 @@
   description: job-description-traumateam-chemist
   playTimeTracker: JobTraumaTeamChemist
   startingGear: TraumaTeamChemistGear
-  icon: "JobIconChemist" #TODO: заменить иконку
   access:
     - Maintenance
     - Service
@@ -15,4 +14,4 @@
   equipment:
     id: PassengerPDA
     ears: ClothingHeadsetGrey
-    jumpsuit: ClothingUniformJumpsuitMedicalColorWhite
+    jumpsuit: ClothingUniformJumpsuitColorGrey

@@ -1,0 +1,55 @@
+- type: entity
+  parent: AirlockMaintGlass
+  id: AirlockPublicGlass
+  suffix: Public
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Glass/maint.rsi
+
+- type: entity
+  parent: AirlockMaintGlass
+  id: AirlockTraumaGlass
+  suffix: TraumaTeam
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Glass/maint.rsi
+
+- type: entity
+  parent: AirlockMaintGlass
+  id: AirlockMilitechGlass
+  suffix: Militech
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Glass/maint.rsi
+
+- type: entity
+  parent: AirlockMaintGlass
+  id: AirlockBiotechGlass
+  suffix: Biotech
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Glass/maint.rsi
+
+- type: entity
+  parent: AirlockMaintGlass
+  id: AirlockNCPDGlass
+  suffix: NCPD
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Glass/maint.rsi
+
+- type: entity
+  parent: AirlockMaintGlass
+  id: AirlockMaelstromGlass
+  suffix: Maelstrom
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Glass/maint.rsi
+
+- type: entity
+  parent: AirlockMaintGlass
+  id: AirlockGovermentGlass
+  suffix: Goverment
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Glass/maint.rsi

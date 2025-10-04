@@ -1,6 +1,6 @@
 - type: department
   id: CivilianNC
-  name: department-CivilianNC
+  name: Гражданские
   description: department-CivilianNC-description
   color: "#999999"
   roles:
@@ -11,7 +11,7 @@
 
 - type: department
   id: Militech
-  name: department-Militech
+  name: Корпорация Militech
   description: department-Militech-description
   color: "#2e4053"
   roles:
@@ -24,7 +24,7 @@
 
 - type: department
   id: Biotech
-  name: department-Biotech
+  name: Корпорация Biotech
   description: department-Biotech-description
   color: "#00d848"
   roles:
@@ -38,7 +38,7 @@
 
 - type: department
   id: NCPD
-  name: department-NCPD
+  name: NCPD
   description: department-NCPD-description
   color: "#1e90ff"
   roles:
@@ -49,7 +49,7 @@
 
 - type: department
   id: Government
-  name: department-Government
+  name: Мэрия
   description: department-Government-description
   color: "#ffb300"
   roles:
@@ -57,7 +57,7 @@
 
 - type: department
   id: Builders
-  name: department-Builders
+  name: Строительная компания
   description: department-Builders-description
   color: "#f4d03f"
   roles:
@@ -66,7 +66,7 @@
 
 - type: department
   id: TraumaTeam
-  name: department-TraumaTeam
+  name: Отдление TraumaTeam
   description: department-TraumaTeam-description
   color: "#e74c3c"
   roles:

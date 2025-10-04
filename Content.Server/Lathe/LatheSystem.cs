@@ -518,7 +518,7 @@ namespace Content.Server.Lathe
             // Cannot reduce value, leave item as-is
             if (component.ProductValueModifier == null
             || !float.IsFinite(component.ProductValueModifier.Value)
-            || component.ProductValueModifier < 0f)
+            || component.ProductValueModifier < 1f)
                 return;
 
             if (TryComp<StackPriceComponent>(target, out var stackPrice))

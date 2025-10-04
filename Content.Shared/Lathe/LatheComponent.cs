@@ -125,7 +125,7 @@ namespace Content.Shared.Lathe
         /// If not null, finite and non-negative, modifies values on spawned items
         /// </summary>
         [DataField]
-        public float? ProductValueModifier = 0f;
+        public float? ProductValueModifier = 1f;
         // End Frontier
         #endregion
     }

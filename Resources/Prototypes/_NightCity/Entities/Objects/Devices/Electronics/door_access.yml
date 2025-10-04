@@ -1,0 +1,44 @@
+# Mayor access only
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsGoverment
+  suffix: Goverment, Locked
+  components:
+  - type: AccessReader
+    access: [["Mayor"]]
+
+#NCPD access only
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsNCPD
+  suffix: NCPD, Locked
+  components:
+  - type: AccessReader
+    access: [["NCPD"]]
+
+# Militech access only
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsMilitech
+  suffix: Militech, Locked
+  components:
+  - type: AccessReader
+    access: [["Militech"]]
+
+# Biotech access only
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBiotech
+  suffix: Biotech, Locked
+  components:
+  - type: AccessReader
+    access: [["Biotech"]]
+
+# Trauma Team access only
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBuilders
+  suffix: Builders, Locked
+  components:
+  - type: AccessReader
+    access: [["Builders"]]

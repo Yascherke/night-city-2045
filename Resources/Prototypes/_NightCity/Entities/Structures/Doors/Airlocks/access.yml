@@ -1,0 +1,70 @@
+- type: entity
+  parent: Airlock
+  id: AirlockServiceLocked
+  suffix: Service, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsService ]
+  - type: Wires
+    layoutId: AirlockService
+
+# Mayor access only
+- type: entity
+  parent: Airlock
+  id: AirlockGovermentLocked
+  suffix: Goverment, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsGoverment ]
+  - type: Wires
+    layoutId: AirlockService
+
+#NCPD access only
+- type: entity
+  parent: Airlock
+  id: AirlockNCPDLocked
+  suffix: NCPD, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsNCPD ]
+  - type: Wires
+    layoutId: AirlockService
+
+# Militech access only
+- type: entity
+  parent: Airlock
+  id: AirlockMilitechLocked
+  suffix: Militech, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsMilitech ]
+  - type: Wires
+    layoutId: AirlockService
+
+# Biotech access only
+- type: entity
+  parent: Airlock
+  id: AirlockBiotechLocked
+  suffix: Biotech, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBiotech ]
+  - type: Wires
+    layoutId: AirlockService
+
+# Trauma Team access only
+- type: entity
+  parent: Airlock
+  id: AirlockBuildersLocked
+  suffix: Builders, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBuilders ]
+  - type: Wires
+    layoutId: AirlockService
