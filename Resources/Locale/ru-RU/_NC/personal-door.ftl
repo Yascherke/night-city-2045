@@ -1,0 +1,9 @@
+personal-door-ownership-first-click = Первый клик зарегистрирован. Кликните еще раз для подтверждения владения.
+personal-door-ownership-second-click-needed = Требуется второй клик для подтверждения владения.
+personal-door-ownership-assigned = Вы стали владельцем этой двери!
+personal-door-locked = Дверь заблокирована.
+personal-door-unlocked = Дверь разблокирована.
+personal-door-access-denied = Отсутствует доступ.
+personal-door-master-unlock = Дверь разблокирована мастер-ключом.
+personal-door-no-owner = У двери нет владельца.
+personal-door-debug-info = Информация о двери
