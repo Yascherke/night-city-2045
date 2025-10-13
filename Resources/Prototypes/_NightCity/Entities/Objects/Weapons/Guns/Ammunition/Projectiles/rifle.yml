@@ -1,0 +1,55 @@
+#region 5.56mm rifle
+- type: entity
+  id: NCBulletRifle556mm
+  name: bullet (5.56mm rifle)
+  parent: NFBaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 35
+        Blunt: 4
+
+#region 6.5mm rifle
+- type: entity
+  id: NCBulletRifle65mm
+  name: bullet (6.5mm rifle)
+  parent: NFBaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 40
+        Blunt: 2
+
+#region 7.62mm rifle
+- type: entity
+  id: NCBulletRifle762mm
+  name: bullet (7.62mm rifle)
+  parent: NFBaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 50
+
+#region .50 cal rifle
+- type: entity
+  id: NCBulletRifle50Cal
+  name: bullet (.50 cal rifle)
+  parent: NFBaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 100
+        Structural: 50
+    penetrationThreshold: 360
+    penetrationDamageTypeRequirement:
+    - Structural
+  - type: StaminaDamageOnCollide
+    damage: 60 

@@ -1,0 +1,226 @@
+#region 9mm pistol
+- type: entity
+  id: NCBulletPistol9mm
+  name: bullet (9mm pistol)
+  parent: NFBaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 17
+        Blunt: 15
+
+- type: entity
+  id: NCBulletPistol9mmAP
+  name: bullet (9mm pistol, armor-piercing)
+  parent: NFBaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 21
+        Blunt: 15
+
+- type: entity
+  id: NCBulletPistol9mmToxin
+  name: bullet (9mm pistol, toxin)
+  parent: NFBaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 12
+        Blunt: 12
+        Toxin: 8
+
+- type: entity
+  id: NCBulletPistol9mmExpansive
+  name: bullet (9mm pistol, expansive)
+  parent: NFBaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 12
+        Blunt: 25
+
+- type: entity
+  id: NCBulletPistol9mmHeat
+  name: bullet (9mm pistol, heat)
+  parent: NFBaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 15
+        Blunt: 14
+        Heat: 10
+
+- type: entity
+  id: NCBulletPistol9mmRubber
+  name: bullet (9mm pistol, rubber)
+  parent: NFBaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Blunt: 9
+  - type: StaminaDamageOnCollide
+    damage: 12 
+
+
+#region .45 ACP pistol
+- type: entity
+  id: NCBulletPistol45ACP
+  name: bullet (.45ACP pistol)
+  parent: NFBaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 25
+        Blunt: 12
+
+- type: entity
+  id: NCBulletPistol45ACPAP
+  name: bullet (.45ACP pistol, armor-piercing)
+  parent: NFBaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 30
+        Blunt: 12
+
+- type: entity
+  id: NCBulletPistol45ACPToxin
+  name: bullet (.45ACP pistol, toxin)
+  parent: NFBaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 18
+        Blunt: 10
+        Toxin: 10
+
+- type: entity
+  id: NCBulletPistol45ACPExpansive
+  name: bullet (.45ACP pistol, expansive)
+  parent: NFBaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 13
+        Blunt: 30
+
+- type: entity
+  id: NCBulletPistol45ACPHeat
+  name: bullet (.45ACP pistol, heat)
+  parent: NFBaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 20
+        Blunt: 12
+        Heat: 10
+
+- type: entity
+  id: NCBulletPistol45ACPRubber
+  name: bullet (.45ACP pistol, rubber)
+  parent: NFBaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Blunt: 11
+  - type: StaminaDamageOnCollide
+    damage: 14 
+
+- type: entity
+  id: NCBulletPistol44Magnum
+  name: bullet (.44 Magnum)
+  parent: NFBaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 49
+
+- type: entity
+  id: NCBulletPistol44MagnumAP
+  name: bullet (.44 Magnum, armor-piercing)
+  parent: NFBaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 49 
+
+- type: entity
+  id: NCBulletPistol44MagnumAP
+  name: bullet (.44 Magnum)
+  parent: NFBaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 59
+
+
+#region 9x19mm submachine
+- type: entity
+  id: NCBulletPistol9x19mm
+  name: bullet (9x19mm submachine)
+  parent: NFBaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 17
+        Blunt: 10
+
+- type: entity
+  id: NCBulletPistol9x19mmRubber
+  name: bullet (9x19mm submachine, rubber)
+  parent: NFBaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Blunt: 7
+  - type: StaminaDamageOnCollide
+    damage: 15
+
+
+#region .22 submachine
+- type: entity
+  id: NCBulletPistol22
+  name: bullet (.22 )
+  parent: NFBaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 10
+        Blunt: 9

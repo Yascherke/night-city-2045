@@ -1,0 +1,23 @@
+#region 12 gauge shotgun
+- type: entity
+  id: NCBulletShotgun12Gauge
+  name: pellet (12 gauge shotgun)
+  parent: NFBaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 29
+
+#region shotgun slugs
+- type: entity
+  id: NCBulletShotgun12GaugeSlug
+  name: slug (12 gauge shotgun)
+  parent: NFBaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 48
