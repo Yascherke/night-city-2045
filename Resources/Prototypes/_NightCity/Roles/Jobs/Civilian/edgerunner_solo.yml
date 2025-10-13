@@ -6,14 +6,11 @@
   startingGear: EdgeRunnerSoloGear
   icon: "JobIconPassenger"
   access:   #TODO: change access
-  - Maintenance
-  - Service
-  - Cryogenics
+  - Civilian
 
 
 - type: startingGear
   id: EdgeRunnerSoloGear
   equipment:
-    id: PassengerPDA
-    ears: ClothingHeadsetGrey
+    id: EdgeRunnerSoloPDA
     jumpsuit: ClothingUniformJumpsuitColorGrey

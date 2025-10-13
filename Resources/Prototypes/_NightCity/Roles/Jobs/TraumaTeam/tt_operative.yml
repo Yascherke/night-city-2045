@@ -5,9 +5,7 @@
   playTimeTracker: JobTraumaTeamOperative
   startingGear: TraumaTeamOperativeGear
   access:
-    - Maintenance
-    - Service
-    - Cryogenics
+    - Medical
 
 - type: startingGear
   id: TraumaTeamOperativeGear

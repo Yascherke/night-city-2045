@@ -6,10 +6,11 @@
   startingGear: OperativeBGear
   icon: "JobIconPassenger" #TODO: change icon
   access:   #TODO: change access
-    - Maintenance
-    - Service
-    - Cryogenics
-
+    - Biotech
+    - MedBiotech
+    - ArmoryBiotech
+    - SecurityBiotech
+    
 - type: startingGear
   id: OperativeBGear
   equipment:

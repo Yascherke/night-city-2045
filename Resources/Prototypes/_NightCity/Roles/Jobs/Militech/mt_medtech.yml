@@ -6,14 +6,12 @@
   startingGear: MedTechMGear
   icon: "JobIconPassenger" #TODO: change icon
   access:   #TODO: change access
-  - Maintenance
-  - Service
-  - Cryogenics
+  - Militech
+  - MedMilitech
 
 
 - type: startingGear
   id: MedTechMGear
   equipment:
-    id: PassengerPDA
-    ears: ClothingHeadsetGrey
+    id: MedTechMPDA
     jumpsuit: ClothingUniformJumpsuitColorGrey

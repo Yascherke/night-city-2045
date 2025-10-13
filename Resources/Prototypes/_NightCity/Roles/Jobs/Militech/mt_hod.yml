@@ -6,14 +6,11 @@
   startingGear: HoDMGear
   icon: "JobIconPassenger" #TODO: change icon
   access:   #TODO: change access
-  - Maintenance
-  - Service
-  - Cryogenics
-
+  - HeadOfDepartmentMilitech
+  - Militech
 
 - type: startingGear
   id: HoDMGear
   equipment:
-    id: PassengerPDA
-    ears: ClothingHeadsetGrey
+    id: HoDMilitechPDA
     jumpsuit: ClothingUniformJumpsuitColorGrey

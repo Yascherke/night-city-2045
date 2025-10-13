@@ -6,14 +6,14 @@
   startingGear: SquadCommanderMGear
   icon: "JobIconPassenger" #TODO: change icon
   access:   #TODO: change access
-  - Maintenance
-  - Service
-  - Cryogenics
+  - ArmoryMilitech
+  - MedMilitech
+  - Militech
+  - SecurityMilitech
 
 
 - type: startingGear
-  id: SquadCommanderMGear
+  id: SquadCommanderMilitechPDA
   equipment:
-    id: PassengerPDA
-    ears: ClothingHeadsetGrey
+    id: SquadCommanderMilitechPDA
     jumpsuit: ClothingUniformJumpsuitColorGrey

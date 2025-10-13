@@ -5,9 +5,9 @@
   playTimeTracker: JobTraumaTeamChief
   startingGear: TraumaTeamChiefGear
   access:
-    - Maintenance
-    - Service
-    - Cryogenics
+    - ChiefMedicalOfficer
+    - Medical
+    - Chemistry
 
 - type: startingGear
   id: TraumaTeamChiefGear

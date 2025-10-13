@@ -6,15 +6,13 @@
   startingGear: CitizenGear
   icon: "JobIconHeadOfSecurity" #TODO: change icon
   access:   #TODO: change access
-  - Maintenance
-  - Service
-  - Cryogenics
+  - Civilian
+
 
 - type: startingGear
   id: CitizenGear
   equipment:
-    id: PassengerPDA
-    ears: ClothingHeadsetGrey
+    id: CitizenPDA
     jumpsuit: ClothingUniformJumpsuitColorGrey
 
 

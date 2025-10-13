@@ -6,9 +6,10 @@
   startingGear: MayorGear
   icon: "JobIconHeadOfPersonnel" #TODO: заменить иконку
   access:
-    - Maintenance
-    - Service
-    - Cryogenics
+    - Civilian
+    - NCPD
+    - Government
+    - Builders
 
 - type: startingGear
   id: MayorGear

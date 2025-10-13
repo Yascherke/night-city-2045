@@ -6,14 +6,13 @@
   startingGear: SecMGear
   icon: "JobIconPassenger" #TODO: change icon
   access:   #TODO: change access
-  - Maintenance
-  - Service
-  - Cryogenics
+  - Militech
+  - MedMilitech
+  - SecurityMilitech
 
 
 - type: startingGear
   id: SecMGear
   equipment:
-    id: PassengerPDA
-    ears: ClothingHeadsetGrey
+    id: SecurityMilitechPDA
     jumpsuit: ClothingUniformJumpsuitColorGrey

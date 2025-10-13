@@ -5,9 +5,7 @@
   playTimeTracker: JobTraumaTeamParamedic
   startingGear: TraumaTeamParamedicGear
   access:
-    - Maintenance
-    - Service
-    - Cryogenics
+    - Medical
 
 - type: startingGear
   id: TraumaTeamParamedicGear

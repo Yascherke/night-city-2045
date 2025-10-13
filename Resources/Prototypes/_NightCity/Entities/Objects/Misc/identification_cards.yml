@@ -4,10 +4,6 @@
   id: CitizenIDCard
   name: ID-карта жителя Night City
   components:
-    - type: Sprite
-      layers:
-        - state: default
-        - state: idpassenger
     - type: PresetIdCard
       job: Citizen
     - type: Access
@@ -19,12 +15,30 @@
   id: EdgeRunnerSoloIDCard
   name: ID-карта EdgeRunner Solo
   components:
-    - type: Sprite
-      layers:
-        - state: default
-        - state: idpassenger
     - type: PresetIdCard
       job: EdgeRunnerSolo
+    - type: Access
+      groups:
+        - CivilianNC
+
+- type: entity
+  parent: IDCardStandard
+  id: FixerIDCard
+  name: ID-карта Fixer
+  components:
+    - type: PresetIdCard
+      job: Fixer
+    - type: Access
+      groups:
+        - CivilianNC
+
+- type: entity
+  parent: IDCardStandard
+  id: ReaperIDCard
+  name: ID-карта Reaper
+  components:
+    - type: PresetIdCard
+      job: Reaper
     - type: Access
       groups:
         - CivilianNC
@@ -35,12 +49,52 @@
   id: HoSMilitechIDCard
   name: ID-карта главы службы безопасности Militech
   components:
-    - type: Sprite
-      layers:
-        - state: default
-        - state: idsecurityofficer
     - type: PresetIdCard
       job: HoSMilitech
+    - type: Access
+      groups:
+        - Militech
+
+- type: entity
+  parent: IDCardStandard
+  id: HoDMilitechIDCard
+  name: ID-карта главы отдела Militech
+  components:
+    - type: PresetIdCard
+      job: HoDMilitech
+    - type: Access
+      groups:
+        - Militech
+
+- type: entity
+  parent: IDCardStandard
+  id: SquadCommanderMilitechIDCard
+  name: ID-карта капитана отряда Militech
+  components:
+    - type: PresetIdCard
+      job: SquadCommanderMilitech
+    - type: Access
+      groups:
+        - Militech
+
+- type: entity
+  parent: IDCardStandard
+  id: SecurityMilitechIDCard
+  name: ID-карта охранника Militech
+  components:
+    - type: PresetIdCard
+      job: SecurityMilitech
+    - type: Access
+      groups:
+        - Militech
+
+- type: entity
+  parent: IDCardStandard
+  id: MedTechMIDCard
+  name: ID-карта медтехника Militech
+  components:
+    - type: PresetIdCard
+      job: MedTechM
     - type: Access
       groups:
         - Militech
@@ -50,10 +104,6 @@
   id: OperativeMilitechIDCard
   name: ID-карта оперативника Militech
   components:
-    - type: Sprite
-      layers:
-        - state: default
-        - state: idsecurityofficer
     - type: PresetIdCard
       job: OperativeMilitech
     - type: Access
@@ -64,12 +114,8 @@
 - type: entity
   parent: IDCardStandard
   id: HoSBiotechIDCard
-  name: ID-карта главы службы безопасности Biotech
+  name: ID-карта главы охраны Биотехники
   components:
-    - type: Sprite
-      layers:
-        - state: default
-        - state: idmedicaldoctor
     - type: PresetIdCard
       job: HoSBiotech
     - type: Access
@@ -78,18 +124,104 @@
 
 - type: entity
   parent: IDCardStandard
-  id: BotanistBiotechIDCard
-  name: ID-карта ботаника Biotech
+  id: HoDBiotechIDCard
+  name: ID-карта главы отдела Биотехники
   components:
-    - type: Sprite
-      layers:
-        - state: default
-        - state: idmedicaldoctor
+    - type: PresetIdCard
+      job: HoDBiotech
+    - type: Access
+      groups:
+        - Biotech
+
+- type: entity
+  parent: IDCardStandard
+  id: SquadCommanderBiotechIDCard
+  name: ID-карта капитана отряда Биотехники
+  components:
+    - type: PresetIdCard
+      job: SquadCommanderBiotech
+    - type: Access
+      groups:
+        - Biotech
+
+- type: entity
+  parent: IDCardStandard
+  id: SecurityBiotechIDCard
+  name: ID-карта охранника Биотехники
+  components:
+    - type: PresetIdCard
+      job: SecurityBiotech
+    - type: Access
+      groups:
+        - Biotech
+
+- type: entity
+  parent: IDCardStandard
+  id: MedTechBIDCard
+  name: ID-карта медтехника Биотехники
+  components:
+    - type: PresetIdCard
+      job: MedTechB
+    - type: Access
+      groups:
+        - Biotech
+
+- type: entity
+  parent: IDCardStandard
+  id: OperativeBiotechIDCard
+  name: ID-карта оперативника Биотехники
+  components:
+    - type: PresetIdCard
+      job: OperativeBiotech
+    - type: Access
+      groups:
+        - Biotech
+
+- type: entity
+  parent: IDCardStandard
+  id: BotanistBiotechIDCard
+  name: ID-карта ботаника Биотехники
+  components:
     - type: PresetIdCard
       job: BotanistBiotech
     - type: Access
       groups:
         - Biotech
+
+# Builders
+- type: entity
+  parent: IDCardStandard
+  id: BuilderChiefIDCard
+  name: ID-карта руководителя строителей
+  components:
+    - type: PresetIdCard
+      job: BuilderChief
+    - type: Access
+      groups:
+        - Builders
+
+- type: entity
+  parent: IDCardStandard
+  id: BuilderIDCard
+  name: ID-карта строителя
+  components:
+    - type: PresetIdCard
+      job: Builder
+    - type: Access
+      groups:
+        - Builders
+
+# Government
+- type: entity
+  parent: IDCardStandard
+  id: MayorIDCard
+  name: ID-карта мэра
+  components:
+    - type: PresetIdCard
+      job: Mayor
+    - type: Access
+      groups:
+        - Government
 
 # NCPD
 - type: entity
@@ -97,12 +229,30 @@
   id: NCPDChiefIDCard
   name: ID-карта начальника полиции NCPD
   components:
-    - type: Sprite
-      layers:
-        - state: default
-        - state: idsecurityofficer
     - type: PresetIdCard
       job: NCPDChief
+    - type: Access
+      groups:
+        - NCPD
+
+- type: entity
+  parent: IDCardStandard
+  id: NCPDOfficerIDCard
+  name: ID-карта офицера NCPD
+  components:
+    - type: PresetIdCard
+      job: NCPDOfficer
+    - type: Access
+      groups:
+        - NCPD
+
+- type: entity
+  parent: IDCardStandard
+  id: NCPDSWATIDCard
+  name: ID-карта спецназа NCPD
+  components:
+    - type: PresetIdCard
+      job: NCPDSWAT
     - type: Access
       groups:
         - NCPD
@@ -112,62 +262,11 @@
   id: NCPDProsecutorIDCard
   name: ID-карта прокурора NCPD
   components:
-    - type: Sprite
-      layers:
-        - state: default
-        - state: idlawyer
     - type: PresetIdCard
       job: NCPDProsecutor
     - type: Access
       groups:
         - NCPD
-
-# Government
-- type: entity
-  parent: IDCardStandard
-  id: MayorIDCard
-  name: ID-карта мэра
-  components:
-    - type: Sprite
-      layers:
-        - state: silver
-        - state: idheadofpersonnel
-    - type: PresetIdCard
-      job: Mayor
-    - type: Access
-      groups:
-        - Government
-
-# Builders
-- type: entity
-  parent: IDCardStandard
-  id: BuilderIDCard
-  name: ID-карта строителя
-  components:
-    - type: Sprite
-      layers:
-        - state: default
-        - state: idstationengineer
-    - type: PresetIdCard
-      job: Builder
-    - type: Access
-      groups:
-        - Builders
-
-- type: entity
-  parent: IDCardStandard
-  id: BuilderChiefIDCard
-  name: ID-карта руководителя строителей
-  components:
-    - type: Sprite
-      layers:
-        - state: default
-        - state: idchiefengineer
-    - type: PresetIdCard
-      job: BuilderChief
-    - type: Access
-      groups:
-        - Builders
 
 # TraumaTeam
 - type: entity
@@ -175,10 +274,6 @@
   id: TraumaTeamChiefIDCard
   name: ID-карта руководителя TraumaTeam
   components:
-    - type: Sprite
-      layers:
-        - state: default
-        - state: idchiefmedicalofficer
     - type: PresetIdCard
       job: TraumaTeamChief
     - type: Access
@@ -190,10 +285,6 @@
   id: TraumaTeamDoctorIDCard
   name: ID-карта врача TraumaTeam
   components:
-    - type: Sprite
-      layers:
-        - state: default
-        - state: idmedicaldoctor
     - type: PresetIdCard
       job: TraumaTeamDoctor
     - type: Access
@@ -205,10 +296,6 @@
   id: TraumaTeamChemistIDCard
   name: ID-карта химика TraumaTeam
   components:
-    - type: Sprite
-      layers:
-        - state: default
-        - state: idchemist
     - type: PresetIdCard
       job: TraumaTeamChemist
     - type: Access
@@ -220,10 +307,6 @@
   id: TraumaTeamParamedicIDCard
   name: ID-карта парамедика TraumaTeam
   components:
-    - type: Sprite
-      layers:
-        - state: default
-        - state: idparamedic
     - type: PresetIdCard
       job: TraumaTeamParamedic
     - type: Access
@@ -235,10 +318,6 @@
   id: TraumaTeamOperativeIDCard
   name: ID-карта оперативника TraumaTeam
   components:
-    - type: Sprite
-      layers:
-        - state: default
-        - state: idsecurityofficer
     - type: PresetIdCard
       job: TraumaTeamOperative
     - type: Access

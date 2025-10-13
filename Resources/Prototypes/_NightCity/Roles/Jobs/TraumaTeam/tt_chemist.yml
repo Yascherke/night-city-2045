@@ -5,9 +5,8 @@
   playTimeTracker: JobTraumaTeamChemist
   startingGear: TraumaTeamChemistGear
   access:
-    - Maintenance
-    - Service
-    - Cryogenics
+    - Medical
+    - Chemistry
 
 - type: startingGear
   id: TraumaTeamChemistGear

@@ -6,16 +6,13 @@
   startingGear: FixerGear
   icon: "JobIconHeadOfSecurity" #TODO: change icon
   access:   #TODO: change access
-  - Maintenance
-  - Service
-  - Cryogenics
+  - Civilian
 
 
 - type: startingGear
   id: FixerGear
   equipment:
-    id: PassengerPDA
-    ears: ClothingHeadsetGrey
+    id: FixerPDA
     jumpsuit: ClothingUniformJumpsuitArmoredBusinessSuit
     storage: 
       back: 

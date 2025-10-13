@@ -6,9 +6,9 @@
   startingGear: NCPDProsecutorGear
   icon: "JobIconLawyer" #TODO: заменить иконку
   access:
-    - Maintenance
-    - Service
-    - Cryogenics
+    - ArmoryNCPD
+    - ProsecutorNCPD
+    - NCPD
 
 - type: startingGear
   id: NCPDProsecutorGear

@@ -7,14 +7,10 @@
   icon: "JobIconHeadOfSecurity" #TODO: change icon
   supervisors: job-name-hoda #TODO: change supervisors
   access:   #TODO: change access
-  - Maintenance
-  - Service
-  - Cryogenics
-
+  - Civilian
 
 - type: startingGear
   id: ReaperGear
   equipment:
-    id: PassengerPDA
-    ears: ClothingHeadsetGrey
+    id: ReaperPDA
     jumpsuit: ClothingUniformJumpsuitColorGrey

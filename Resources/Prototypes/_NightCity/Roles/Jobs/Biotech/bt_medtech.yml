@@ -6,9 +6,8 @@
   startingGear: MedTechBGear
   icon: "JobIconPassenger" #TODO: change icon
   access:   #TODO: change access
-    - Maintenance
-    - Service
-    - Cryogenics
+    - Biotech
+    - MedBiotech
 
 - type: startingGear
   id: MedTechBGear

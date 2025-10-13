@@ -6,9 +6,8 @@
   startingGear: NCPDOfficerGear
   icon: "JobIconSecurityOfficer" #TODO: заменить иконку
   access:
-    - Maintenance
-    - Service
-    - Cryogenics
+    - NCPD
+
 
 - type: startingGear
   id: NCPDOfficerGear

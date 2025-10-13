@@ -6,9 +6,8 @@
   startingGear: HoDBGear
   icon: "JobIconPassenger" #TODO: change icon
   access:   #TODO: change access
-    - Maintenance
-    - Service
-    - Cryogenics
+    - HeadOfDepartmentBiotech
+    - Biotech
 
 - type: startingGear
   id: HoDBGear

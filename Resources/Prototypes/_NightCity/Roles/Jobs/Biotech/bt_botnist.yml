@@ -6,13 +6,11 @@
   startingGear: BotanistBGear
   icon: "JobIconPassenger" #TODO: change icon
   access:   #TODO: change access
-    - Maintenance
-    - Service
-    - Cryogenics
+    - Biotech
 
 - type: startingGear
   id: BotanistBGear
   equipment:
-    id: PassengerPDA
-    ears: ClothingHeadsetGrey
+    id: BotanistBiotechPDA
+    ears: ClothingHeadBiotechsetGrey
     jumpsuit: ClothingUniformJumpsuitColorGrey

@@ -6,9 +6,8 @@
   startingGear: NCPDChiefGear
   icon: "JobIconHeadOfSecurity" #TODO: заменить иконку
   access:
-    - Maintenance
-    - Service
-    - Cryogenics
+    - ChiefNCPD
+    - NCPD
 
 - type: startingGear
   id: NCPDChiefGear
