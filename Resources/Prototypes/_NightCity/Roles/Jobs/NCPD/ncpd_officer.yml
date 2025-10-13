@@ -12,6 +12,5 @@
 - type: startingGear
   id: NCPDOfficerGear
   equipment:
-    id: PassengerPDA
-    ears: ClothingHeadsetGrey
+    id: NCPDOfficerPDA
     jumpsuit: ClothingUniformJumpsuitColorGrey

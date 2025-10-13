@@ -12,6 +12,5 @@
 - type: startingGear
   id: BuilderChiefGear
   equipment:
-    id: PassengerPDA
-    ears: ClothingHeadsetGrey
+    id: BuilderChiefPDA
     jumpsuit: ClothingUniformJumpsuitChiefEngineer

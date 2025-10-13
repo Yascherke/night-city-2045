@@ -11,6 +11,5 @@
 - type: startingGear
   id: TraumaTeamChemistGear
   equipment:
-    id: PassengerPDA
-    ears: ClothingHeadsetGrey
+    id: TraumaTeamChemistPDA
     jumpsuit: ClothingUniformJumpsuitColorGrey

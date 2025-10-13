@@ -13,6 +13,5 @@
 - type: startingGear
   id: SquadCommanderBGear
   equipment:
-    id: PassengerPDA
-    ears: ClothingHeadsetGrey
+    id: SquadCommanderBiotechPDA
     jumpsuit: ClothingUniformJumpsuitColorGrey

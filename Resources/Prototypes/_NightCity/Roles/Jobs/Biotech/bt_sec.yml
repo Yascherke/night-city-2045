@@ -13,6 +13,5 @@
 - type: startingGear
   id: SecBGear
   equipment:
-    id: PassengerPDA
-    ears: ClothingHeadsetGrey
+    id: SecurityBiotechPDA
     jumpsuit: ClothingUniformJumpsuitColorGrey

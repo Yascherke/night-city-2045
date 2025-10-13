@@ -14,6 +14,5 @@
 - type: startingGear
   id: MayorGear
   equipment:
-    id: PassengerPDA
-    ears: ClothingHeadsetGrey
+    id: MayorPDA
     jumpsuit: ClothingUniformJumpsuitColorGrey

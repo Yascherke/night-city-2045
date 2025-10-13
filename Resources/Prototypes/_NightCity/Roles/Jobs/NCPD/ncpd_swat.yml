@@ -13,6 +13,5 @@
 - type: startingGear
   id: NCPDSWATGear
   equipment:
-    id: PassengerPDA
-    ears: ClothingHeadsetGrey
+    id: NCPDSWATPDA
     jumpsuit: ClothingUniformJumpsuitColorGrey

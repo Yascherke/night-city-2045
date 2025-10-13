@@ -12,6 +12,5 @@
 - type: startingGear
   id: HoDBGear
   equipment:
-    id: PassengerPDA
-    ears: ClothingHeadsetGrey
+    id: HoDBiotechPDA
     jumpsuit: ClothingUniformJumpsuitColorGrey

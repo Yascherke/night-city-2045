@@ -10,6 +10,5 @@
 - type: startingGear
   id: TraumaTeamParamedicGear
   equipment:
-    id: PassengerPDA
-    ears: ClothingHeadsetGrey
+    id: TraumaTeamParamedicPDA
     jumpsuit: ClothingUniformJumpsuitColorGrey

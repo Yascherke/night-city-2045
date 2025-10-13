@@ -12,6 +12,5 @@
 - type: startingGear
   id: MedTechBGear
   equipment:
-    id: PassengerPDA
-    ears: ClothingHeadsetGrey
+    id: MedTechBPDA
     jumpsuit: ClothingUniformJumpsuitColorGrey
