@@ -24,6 +24,15 @@ using Robust.Shared.Prototypes; // Frontier
 using Robust.Shared.Timing; // Frontier
 using Content.Shared.Weapons.Melee.Events; // Frontier
 using Content.Shared.Emag.Systems; // Frontier
+using Content.Shared.Damage; // Night City
+using Content.Shared._NC.Vehicles.Components;  // Night City
+using System.Linq; // для Sum
+using Content.Shared.Damage;  // Night City
+using Content.Shared.Damage.Events;  // Night City
+using Robust.Shared.GameObjects;  // Night City
+
+
+
 
 namespace Content.Shared._Goobstation.Vehicles; // Frontier: migrate under _Goobstation
 
@@ -44,6 +53,11 @@ public abstract partial class SharedVehicleSystem : EntitySystem
     [Dependency] private readonly EmagSystem _emag = default!; // Frontier
     [Dependency] private readonly SharedPopupSystem _popup = default!; // Frontier
     [Dependency] private readonly UnpoweredFlashlightSystem _flashlight = default!; // Frontier
+
+    [Dependency] private readonly DamageableSystem _damageableSystem = default!; // Night City
+    [Dependency] private readonly IEntityManager _entMan = default!; // Night City
+
+
 
     public static readonly EntProtoId HornActionId = "ActionHorn";
     public static readonly EntProtoId SirenActionId = "ActionSiren";
@@ -69,6 +83,9 @@ public abstract partial class SharedVehicleSystem : EntitySystem
         SubscribeLocalEvent<VehicleComponent, SirenActionEvent>(OnSiren);
 
         SubscribeLocalEvent<VehicleRiderComponent, PullAttemptEvent>(OnRiderPull); // Frontier
+
+        SubscribeLocalEvent<DamageableComponent, BeforeDamageChangedEvent>(OnBeforeDamage); // Night City
+        SubscribeLocalEvent<VehicleComponent, DamageChangedEvent>(OnVehicleDamageChanged); // Night City
     }
 
     private void OnInit(EntityUid uid, VehicleComponent component, ComponentInit args)
@@ -382,6 +399,50 @@ public abstract partial class SharedVehicleSystem : EntitySystem
     protected abstract void HandleEmag(Entity<VehicleComponent> ent);
     protected abstract void HandleUnemag(Entity<VehicleComponent> ent);
     // End Frontier
+
+    // Night City
+    private void OnBeforeDamage(EntityUid uid, DamageableComponent damageable, ref BeforeDamageChangedEvent ev)
+    {
+        // Проходим по всем компонентам VehicleComponent
+        foreach (var vehComp in EntityQuery<VehicleComponent>(true))
+        {
+            // Получаем UID сущности-автомобиля
+            var vehUid = vehComp.Owner;
+
+            // Если этот uid — водитель в данном транспорте
+            if (vehComp.Driver == uid)
+            {
+                // Отменяем урон по водителю
+                ev.Cancelled = true;
+
+                // Переносим урон на транспорт
+                _damageableSystem.TryChangeDamage(vehUid, ev.Damage, origin: ev.Origin);
+                return;
+            }
+        }
+    }
+
+
+
+    private void OnVehicleDamageChanged(EntityUid uid, VehicleComponent vehicleComp, DamageChangedEvent args)
+    {
+        if (!TryComp<VehicleDamageComponent>(uid, out var damageComp) || args.DamageDelta == null)
+            return;
+
+        var total = args.DamageDelta.DamageDict.Values.Sum(v => (float)v);
+
+        damageComp.CurrentEngineHealth = Math.Max(0f, damageComp.CurrentEngineHealth - total);
+        Dirty(uid, damageComp);
+
+        if (damageComp.CurrentEngineHealth <= 0f && vehicleComp.EngineRunning)
+        {
+            vehicleComp.EngineRunning = false;
+            _appearance.SetData(uid, VehicleState.Animated, false);
+        }
+    }
+
+
+    // End Night City
 }
 
 public sealed partial class HornActionEvent : InstantActionEvent;
