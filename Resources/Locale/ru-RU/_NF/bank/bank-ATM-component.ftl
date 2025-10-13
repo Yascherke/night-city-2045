@@ -1,6 +1,6 @@
 ## UI
 
-bank-atm-menu-title = Галактический Банк NT
+bank-atm-menu-title = Банк Найт-Сити
 bank-atm-menu-balance-label = Баланс аккаунта:{ " " }
 bank-atm-menu-no-bank = Нет аккаунта!
 bank-atm-menu-withdraw-button = Вывести
@@ -12,7 +12,7 @@ bank-atm-menu-transaction-denied = Транзакция отклонена
 bank-atm-menu-deposit-successful = Депозит принят
 bank-atm-menu-withdraw-successful = Перевод одобрен
 bank-atm-menu-wrong-cash = Неправильный тип валюты!
-station-bank-atm-menu-title = Администрация Станции
+station-bank-atm-menu-title = Управление Бюджетом
 station-bank-fines = Штраф
 station-bank-donation = Пожертвование
 station-bank-assets-sold = Проданные Активы

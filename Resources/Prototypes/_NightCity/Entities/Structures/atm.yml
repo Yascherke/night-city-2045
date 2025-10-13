@@ -1,43 +1,68 @@
-# - type: entity
-#   parent: BaseStationAdminBankATM
-#   id: StationAdminBankATMMilitech
-#   description: Used to transfer funds to and from Militech department's bank account.
-#   suffix: Militech
-#   components:
-#   - type: StationBankATM
-#     account: Militech
-#   - type: AccessReader
-#     access: [["Militech"]]
+- type: entity
+  parent: BaseStationAdminBankATM
+  id: StationAdminBankATMMilitech
+  name: Militech ATM
+  description: Used to transfer funds to and from Militech department's bank account.
+  suffix: Militech
+  components:
+  - type: StationBankATM
+    account: Militech
+  - type: AccessReader
+    access: [["Militech"]]
 
-# - type: entity
-#   parent: BaseStationAdminBankATM
-#   id: StationAdminBankATMBiotech
-#   description: Used to transfer funds to and from Biotech department's bank account.
-#   suffix: Biotech
-#   components:
-#   - type: StationBankATM
-#     account: medical
-#   - type: AccessReader
-#     access: [["Biotech"]]
+- type: entity
+  parent: BaseStationAdminBankATM
+  id: StationAdminBankATMBiotech  
+  name: Biotech ATM
+  description: Used to transfer funds to and from Biotech department's bank account.
+  suffix: Biotech
+  components:
+  - type: StationBankATM
+    account: Biotech
+  - type: AccessReader
+    access: [["Biotech"]]
 
-# - type: entity
-#   parent: BaseStationAdminBankATM
-#   id: StationAdminBankATMTraumaTeam
-#   description: Used to transfer funds to and from TraumaTeam department's bank account.
-#   suffix: TraumaTeam
-#   components:
-#   - type: StationBankATM
-#     account: TraumaTeam
-#   - type: AccessReader
-#     access: [["TraumaTeam"]]
+- type: entity
+  parent: BaseStationAdminBankATM
+  id: StationAdminBankATMTraumaTeam
+  name: TraumaTeam ATM
+  description: Used to transfer funds to and from TraumaTeam department's bank account.
+  suffix: TraumaTeam
+  components:
+  - type: StationBankATM
+    account: medical
+  - type: AccessReader
+    access: [["TraumaTeam"]]
 
-# - type: entity
-#   parent: BaseStationAdminBankATM
-#   id: StationAdminBankATMMayor
-#   description: Used to transfer funds to and from Government department's bank account.
-#   suffix: Government
-#   components:
-#   - type: StationBankATM
-#     account: NightCity
-#   - type: AccessReader
-#     access: [["Government"]]
+- type: entity
+  parent: BaseComputerTabletopStationAdminBankATM
+  id: ComputerTabletopStationAdminBankATMFrontier
+  description: Used to transfer funds to and from Frontier Outpost's bank account.
+  suffix: Frontier, Tabletop
+  components:
+  - type: StationBankATM
+    account: Militech
+  - type: AccessReader
+    access: [["Militech"]]
+
+- type: entity
+  parent: BaseComputerTabletopStationAdminBankATM
+  id: ComputerTabletopStationAdminBankATMFrontier
+  description: Used to transfer funds to and from Frontier Outpost's bank account.
+  suffix: Frontier, Tabletop
+  components:
+  - type: StationBankATM
+    account: Militech
+  - type: AccessReader
+    access: [["Militech"]]
+
+- type: entity
+  parent: BaseComputerTabletopStationAdminBankATM
+  id: ComputerTabletopStationAdminBankATMFrontier
+  description: Used to transfer funds to and from Frontier Outpost's bank account.
+  suffix: Frontier, Tabletop
+  components:
+  - type: StationBankATM
+    account: Militech
+  - type: AccessReader
+    access: [["Militech"]]

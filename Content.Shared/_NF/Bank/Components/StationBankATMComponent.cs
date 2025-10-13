@@ -37,6 +37,6 @@ public enum SectorBankAccount : byte
     Nfsd,
     Medical,
     Edison,
-    Militech,
-    Biotech,
+    Militech,       // + NC
+    Biotech,        // + NC
 }

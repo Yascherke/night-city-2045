@@ -1,9 +1,9 @@
 ## UI
-adventure-list-start = [color=gold]Галактический Банк NT[/color]
+adventure-list-start = [color=gold]Банк Найт-Сити[/color]
 adventure-list-profit = Прибыль составила: [color=#d19e5e]{$amount}[/color].
 adventure-list-loss = Убыток составил: [color=#659cc9]{$amount}[/color].
 
-adventure-webhook-list-start = Галактический Банк NT
+adventure-webhook-list-start = Банк Найт-Сити
 adventure-webhook-list-high = Больше всего заработали:
 adventure-webhook-list-low = Больше всего потратили:
 adventure-webhook-top-profit = Прибыль составила: {$amount}.
