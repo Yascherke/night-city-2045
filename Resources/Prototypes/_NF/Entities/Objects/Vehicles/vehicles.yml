@@ -985,6 +985,6 @@
       - !type:PlaySoundBehavior
         sound:
           collection: MetalBreak
-  - type: VehicleDamageComponent
+  - type: VehicleDamage
     maxEngineHealth: 100
     currentEngineHealth: 100
