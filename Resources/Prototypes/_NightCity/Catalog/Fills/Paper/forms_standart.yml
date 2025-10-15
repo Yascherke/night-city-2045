@@ -1,0 +1,145 @@
+# Station Forms Prototype – Night City 2045
+# Sources: internal design docs, Night City guidebook
+
+# Filled Folder Container
+- type: entity
+  id: NightCityFormsFolder
+  abstract: true
+  components:
+    - type: StorageFill
+      contents:
+        - id: PaperEmploymentApplication
+        - id: PaperEquipmentRequest
+        - id: PaperIncidentReport
+        - id: PaperContractTemplate
+        - id: Paper
+          prob: 0.5
+        - id: Paper
+          prob: 0.5
+
+# Folder Variants
+- type: entity
+  id: BoxFolderNightCityFormsGreen
+  parent: [NightCityFormsFolder, BoxFolderPalGreen]
+  name: Night City Form Folder
+  description: A folder filled with standard Night City paperwork templates.
+  suffix: Forms, Green
+
+- type: entity
+  id: BoxFolderNightCityFormsBrown
+  parent: [NightCityFormsFolder, BoxFolderPalBrown]
+  name: Night City Form Folder
+  description: A folder filled with standard Night City paperwork templates.
+  suffix: Forms, Brown
+
+# Forms
+
+- type: entity
+  id: PaperEmploymentApplication
+  name: Бланк заявления на работу
+  parent: Paper
+  categories: [HideSpawnMenu]
+  components:
+    - type: Paper
+      content: |
+        [head=1][color=#1a6295]Городское управление[/color][/head]
+
+        [bold]Кадровая служба Night City[/bold] 
+ 
+        [bold]ЛИЧНАЯ ИНФОРМАЦИЯ[/bold]
+        Имя: __________  
+        Адрес: __________  
+        Телефон: _______   
+        Судимость: ☐ Да ☐ Нет
+
+        [bold]ПОЗИЦИЯ[/bold]
+        Должность: _______  
+        Зарплата: _______/день
+
+- type: entity
+  id: PaperEquipmentRequest
+  name: балнк закупок
+  parent: Paper
+  categories: [HideSpawnMenu]
+  components:
+    - type: Paper
+      content: |
+        [head=1][color=#1a6295]Городское управление[/color][/head]
+
+        [bold]Закупочный лист[/bold] 
+        [bold]ОТ:[/bold] [italic]Заявитель[/italic] [bold][color=darkred]*ваш отдел*[/color][/bold]
+
+        [bold]ЗАЯВИТЕЛЬ[/bold]
+        ФИО: ________  
+        Должность: ____   
+
+        [bold]ЗАПРОС[/bold]
+        Тип: ☐ Оборуд. ☐ Расх.мат. ☐ Оружие  
+             ☐ Медикаменты ☐ Другое  
+        Приоритет: ☐ Крит. ☐ Высокий ☐ Средний  
+                  ☐ Низкий  
+        Причина: ___________
+
+        [bold]ПРЕДМЕТЫ[/bold]
+        1) ____ | кол-во: _ | ст-ть: _  
+        2) ____ | кол-во: _ | ст-ть: _  
+        Общая ст-ть: ______ еродолларов
+
+- type: entity
+  id: PaperIncidentReport
+  name: отчет об инциденте
+  parent: Paper
+  categories: [HideSpawnMenu]
+  components:
+    - type: Paper
+      content: |
+        [head=1][color=#1a6295]Городское управление[/color][/head]
+
+        [bold]NCPD[/bold]
+
+        [bold]ОСНОВНОЕ[/bold]
+        № отчёта: ____  
+        Время от начала раунда: __/__  
+        Место: ______  
+
+        [bold]ДОКЛАДЧИК[/bold]
+        ФИО: ____  
+        Должность: __  
+        Роль: ☐ Свидитель ☐ Потерпевший  
+              ☐ Офицер ☐ По слухам
+
+        [bold]ПРОИСШЕСТВИЕ[/bold]
+        Тип: ☐ Несчастный случай ☐ Нарушение
+             ☐ Кибератака ☐ Другое  
+        Уровень: ☐ Критический ☐ Высокий  
+                 ☐ Средний ☐ Низкий
+
+        [bold]ОПИСАНИЕ[/bold]
+        ________
+
+        
+
+- type: entity
+  id: PaperContractTemplate
+  name: контракт
+  parent: Paper
+  categories: [HideSpawnMenu]
+  components:
+    - type: Paper
+      content: |
+        [head=1][color=#1a6295]Городское управление[/color][/head]
+
+        [bold]Юридический отдел[/bold]
+
+        [bold]СТОРОНЫ[/bold]
+        Заказчик: ____  
+        Исполнитель: __
+
+        [bold]ПРЕДМЕТ[/bold]
+        _______________
+
+
+
+        [bold]СТОИМОСТЬ[/bold]
+        Стоимость: ___ еродолларов
+
